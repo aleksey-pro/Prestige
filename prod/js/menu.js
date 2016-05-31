@@ -1,0 +1,2 @@
+!function(){function e(){classie.has(o,"container--open")?(classie.remove(o,"container--open"),classie.remove(t,"trigger--active"),window.addEventListener("scroll",n)):(classie.add(o,"container--open"),classie.add(t,"trigger--active"),window.removeEventListener("scroll",n))}function n(){window.scrollTo(0,0)}var o=document.getElementById("container"),t=o.querySelector("button.trigger");document.body.scrollTop=document.documentElement.scrollTop=0,t.addEventListener("click",e)}();
+//# sourceMappingURL=menu.js.map
