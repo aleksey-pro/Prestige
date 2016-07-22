@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
 		longitude = 30.340942,
 		map_zoom = 17;
 
-	var latlngCenter = new google.maps.LatLng(59.924576, 30.345727);	
+	var latlngCenter = new google.maps.LatLng(59.924576, 30.345727);// центр при ширине во весь экран
 		
 		
 	//Адрес до иконки с маркером
@@ -188,8 +188,8 @@ jQuery(document).ready(function($){
 		
 	//Создание точки на карте
 	var map_options = {
- //     center: new google.maps.LatLng(latitude, longitude),
-		center: latlngCenter,
+		center: new google.maps.LatLng(latitude, longitude),
+//		center: latlngCenter,
       	zoom: map_zoom,
       	panControl: false,
       	zoomControl: false,

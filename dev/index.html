@@ -37,24 +37,54 @@
 	
 		//= templates/header.html
 		
-		<section class="intro fullheight">
+		<section class="intro fullheight"><!-- add fullheight class to fit the screen -->
 			<div class="intro_text">
-				<p>Наша команда живет и вдыхает миф архитектурного совершенства!<br>Мы направляем Энергию на созидание лучших решений,а качество наших услуг, идеально дополняющих процесс производства и сбыта, обеспечивают успех деловой активности бренда PrestigeFacade</p>
+				<p class="animated fadeIn" id="animated1">Фасады из стекла</p>
+				<p class="animated fadeIn" id="animated2">Проектирование | Изготовление | Монтаж</p>
+				<p class="animated fadeIn" id="animated3"> Клининг | Тонирование | Утепление</p>
 			</div>
 			<div class="intro__banners">
-				<div class="left-banner"></div>
-				<div class="right-banner"></div>
-		    </div><!-- intro__banners -->
-			<div class="intro__arrow" id="body_cont">				
+				<div class="left-banner1">
+				<figure>
+					<img src="img/banners/dizayn_balkonov.png" alt="утепление лоджии с панорамным остеклением" width="320" height="180" border="0" />
+					<figcaption>
+						<a href="otdelka.html" rel="nofollow">подробнее</a>
+					</figcaption>
+				</figure>
+				</div>
+				<div class="left-banner2">
+					<figure>
+						<img src="img/banners/tonirovka_okon.png" alt="тонировка оконного стекла" width="320" height="180" border="0" />
+						<figcaption>
+							<a href="tonirovka.html" rel="nofollow">подробнее</a>
+						</figcaption>
+					</figure>
+				</div>	
+				<div class="right-banner1">
+					<figure>
+						<img src="img/banners/pomyvka_okon_i_balkonov.png" alt="Помывка фасадов зданий" width="320" height="180" border="0" />
+						<figcaption>
+							<a href="cleaning.html" rel="nofollow">подробнее</a>
+						</figcaption>
+					</figure>
+				</div>	
+				<div class="right-banner2">
+					<figure>
+						<img src="img/banners/zamena_ostek.png" alt="замена фасадного остекления на теплое" width="320" height="180" border="0" />
+						<figcaption>
+							<a href="zamena.html">подробнее</a>
+						</figcaption>
+					</figure>				
+				</div>
+		    </div><!-- intro__banners --> 
+			<!--<div class="intro__arrow" id="body_cont">				
 			<a href="#body_cont" class="anchor" data-tooltip="Нажать на пиктограмму МЕНЮ"><img src="img/arrowdown2.png" alt="" width="58" height="58" border="0" /></a>
-			</div>
-			<div id="tooltip"></div>
-		</section>		
-		
+			</div>-->	
+		</section>			
 		<section class="body_content">
-			<center><h1>Архитектурные решения из светопрозрачных конструкций</h1></center>
-			<p>Все услуги, которые оказывает компания Prestige Facade и ее подразделения, начинаются с идеологии вдохновения изысками архитектурного совершенства. Действуя с опережением мысли, стремясь воплотить самые смелые решения в жизнь, компания делает жизнь клиента проще, безопаснее и лучше. Ответственность - наш главный капитал. Стеклоалюминиевое творчество, идеально дополняющее процесс производства и оказания услуг, обеспечивают успех деловой активности бренда.</p>
-		</section><!-- body_content -->
+			<center><h1 class="mainH1">Архитектурные решения из светопрозрачных конструкций</h1></center>
+			<p>Услуги, которые оказывает Компания PrestigeFacade, начинаются с вдохновения изысками архитектурного совершенства. Действуя с опережением мысли, воплощаем смелые решения в жизнь! Ответственность - наш главный капитал. Высококачественный процесс производства и оказаняи услуг обеспечивают успех деловой активности Бренда.</p>
+		</section><!-- body_content-->
 		
 		//= templates/footer.html
 		
@@ -64,16 +94,16 @@
 	<script src="js/map.js"></script>
 	<script>
 					(function() {
-			//			var wheight = $(window).height();
-			//			var width = $(window).width();
-			//			
-			//			if (width => '768'){
-			//				$('.fullheight').css('height', wheight);
-			//				$(window).resize(function(){
-			//					wheight = $(window).height();			
-			//					$('.fullheight').css('height', wheight);
-			//				})	
-			//			}
+						var wheight = $(window).height();
+						var width = $(window).width();
+						
+						if (width => '768'){
+							$('.fullheight').css('height', wheight);
+							$(window).resize(function(){
+								wheight = $(window).height();			
+								$('.fullheight').css('height', wheight);
+							}) 	
+						} else {$('.fullheight').css('height', '700px');}
 						<!-- 	SCROLLING -->	
 						$(document).ready(function(){
 							$('.anchor').click( function(){ // ловим клик по ссылке с классом go_to

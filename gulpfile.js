@@ -8,6 +8,8 @@ var gulp = require('gulp'),
 	uglify  = require('gulp-uglify'),
 	gulpif = require('gulp-if'),
 	autoprefixer = require('gulp-autoprefixer'),
+	jshint = require("gulp-jshint"),
+	plumber = require("gulp-plumber"),
 	sourcemaps = require('gulp-sourcemaps');
 	
 var config = {
@@ -41,6 +43,7 @@ gulp.task('fonts', function() {
 
 gulp.task('HTML', function() {
   return gulp.src('dev/**/*.html')
+	.on('error', console.log)
 	.pipe(rigger())	
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest('prod'))
@@ -51,6 +54,7 @@ gulp.task('HTML', function() {
 
 gulp.task('styles', function () {
   return gulp.src('dev/css/*.css')
+	.on('error', console.log)
 	.pipe(sourcemaps.init())
 	.pipe(autoprefixer())
 	.pipe(concat('main.css'))
@@ -60,6 +64,12 @@ gulp.task('styles', function () {
 	.pipe(browserSync.reload({
 	 stream: true
 	}))		
+});
+
+gulp.task('jshint', function() {
+    return gulp.src('dev/js/*.js')
+        .pipe(jshint()) //прогоним через jshint
+       // .pipe(jshint.reporter('jshint-stylish')); стилизуем вывод ошибок в консоль
 });
 
 gulp.task('scripts', function () {
@@ -81,6 +91,6 @@ gulp.task ('watch', function(){
 	gulp.watch('dev/js/*.js', ['scripts']);
 });
 
-gulp.task ('default', ['HTML','images', 'fonts', 'styles', 'scripts', 'browserSync', 'watch']);
+gulp.task ('default', ['HTML','images', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);
 
 	
