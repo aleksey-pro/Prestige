@@ -1138,8 +1138,12 @@ textarea#posText {
 	float: right;
 }
 
-.logo, .tel {
+.logo {
 	padding-left: 20px;
+} 
+
+.tel{
+	padding-left: 40px;
 } 
 
 .menu_button span {
@@ -1153,7 +1157,7 @@ textarea#posText {
 .tel {
     font-size: 14px;
 	float: left;
-	margin-left: 20%;
+	margin-left: 0;
     margin-bottom: 3px;
 }
 
