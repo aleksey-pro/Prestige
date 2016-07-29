@@ -56,7 +56,9 @@ gulp.task('styles', function () {
   return gulp.src('dev/css/*.css')
 	.on('error', console.log)
 	.pipe(sourcemaps.init())
-	.pipe(autoprefixer())
+	.pipe(autoprefixer({
+		browsers: ['ie 7-9']
+	}))
 	.pipe(concat('main.css'))
 	.pipe(minifyCSS('main.min.css'))
 	.pipe(sourcemaps.write('.'))
