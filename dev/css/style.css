@@ -328,8 +328,8 @@ li {
  75% {opacity:0.7}
  100% {opacity:1}
 }
- */
-.intro__arrow {
+ 
+ .intro__arrow {
 	position: absolute;
 	bottom: 2em;
 	left: 50%;
@@ -338,6 +338,56 @@ li {
 
 .intro__arrow img {
 	display: block;
+	cursor: pointer;
+} */
+
+
+#modal_form {
+	display: none;
+	background-color: #fff;	
+	z-index: 5;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	width: 300px;
+	height: 480px;
+	margin-top: -150px;
+	margin-left: -200px;
+	border: 1px solid blue;
+	border-radius: 5px;	
+	padding: 20px 10px;
+	opacity: 0;
+}
+
+#modal_form #modal_close {
+	cursor: pointer;
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;	
+}
+
+#overlay {
+	display: none;		
+	background-color: #000;
+	opacity: 0.8;
+	filter: alpha (opacity=80);
+	z-index: 3;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.calc-button {
+	text-align: center;
+}
+
+.calc-button a {
 	cursor: pointer;
 }
 

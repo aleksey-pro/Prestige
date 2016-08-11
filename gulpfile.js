@@ -20,7 +20,7 @@ var config = {
 	host: 'localhost',
 	port: 3000,
 	logPrefix: "Ivashka prod.",
-	browser: "firefox"
+	browser: "chrome"
 };	
 
 gulp.task ('browserSync', function(){
@@ -93,6 +93,4 @@ gulp.task ('watch', function(){
 	gulp.watch('dev/js/*.js', ['scripts']);
 });
 
-gulp.task ('default', ['HTML','images', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);
-
-	
+gulp.task ('default', ['HTML', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);	
