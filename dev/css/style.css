@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 	color: #000000;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-family: 'PT Sans Caption', sans-serif;
 }
 
@@ -30,6 +30,11 @@ p {
 	text-align: justify;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 1.3em;
+}
+
+legend {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
 }
 
 h3 {
@@ -342,20 +347,25 @@ li {
 } */
 
 
+.demoform {
+	margin: 0 10px;
+	border-radius: 5px;	
+}
+
 #modal_form {
 	display: none;
-	background-color: #fff;	
-	z-index: 5;
+	background: #939393; /* Old browsers */
+	background: -moz-linear-gradient(top, #939393 0%, #3d3d3d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #939393 0%,#3d3d3d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #939393 0%,#3d3d3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
+	z-index: 105;
 	position: fixed;
-	top: 20%;
-	left: 50%;
-	width: 300px;
-	height: 480px;
-	margin-top: -150px;
-	margin-left: -200px;
-	border: 1px solid blue;
+	top: 10%;
+	left: calc(50% - 160px);
+	width: 320px;
+	height: 540px;
 	border-radius: 5px;	
-	padding: 20px 10px;
+	padding: 20px 0;
 	opacity: 0;
 }
 
@@ -376,20 +386,22 @@ li {
 	filter: alpha (opacity=80);
 	z-index: 3;
 	position: fixed;
-	width: 100%;
-	height: 100%;
 	top: 0;
 	left: 0;
+	bottom: 0;
+	right: 0;
 	cursor: pointer;
 }
 
 .calc-button {
 	text-align: center;
+	margin: 2em 0;
 }
 
 .calc-button a {
 	cursor: pointer;
 }
+
 
 #tooltip {
     z-index: 9999;
@@ -401,6 +413,12 @@ li {
 	padding: 5px 10px 5px 10px;
 	color: white;
 	opacity: 0.6;
+}
+
+.small span {
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
 }
 
 
@@ -979,7 +997,7 @@ label {
 	margin-right: 12px;
 	margin-bottom: 9px;
 	font-family: 'PT Sans', sans-serif;
-	color: #646464;
+	color: #fff;
 	font-size: 1.2em;
 }
 
