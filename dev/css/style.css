@@ -384,7 +384,7 @@ li {
 	background-color: #000;
 	opacity: 0.8;
 	filter: alpha (opacity=80);
-	z-index: 3;
+	z-index: 20;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -515,6 +515,7 @@ li {
 	content:'';
 	background: #fff url('../img/line.png') -10px 0 no-repeat;
 } */
+
 
 .cleaning__content ul, .business__content ul, .zagorod__content ul, .article__text ul , .zamena__lists ul {
 	list-style-image: url('../img/check.png');
@@ -662,6 +663,10 @@ li {
 
 .cleaning__sposob ul {
 	text-transform: none;
+}
+
+.cleaning__bottom {
+	overflow: hidden;
 }
 
 .cleaning__bottom p{
