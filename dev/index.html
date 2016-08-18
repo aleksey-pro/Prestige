@@ -48,7 +48,7 @@
 				<figure>
 					<img src="img/banners/dizayn_balkonov.png" alt="утепление лоджии с панорамным остеклением" width="320" height="180" border="0" />
 					<figcaption>
-						<a href="otdelka.html" rel="nofollow">подробнее</a>
+						<a href="akcii.html#akcia-otdelka" rel="nofollow"><span>Lounge комната – Перепланировка пространства в уютную комнату отдыха  с мебелью и аксессуарами</span><p>Специальная цена на популярное предложение по отделке балкона и лоджии - всего от 200 тыс. руб.</p></a>	    
 					</figcaption>
 				</figure>
 				</div>
@@ -56,7 +56,7 @@
 					<figure>
 						<img src="img/banners/tonirovka_okon.png" alt="тонировка оконного стекла" width="320" height="180" border="0" />
 						<figcaption>
-							<a href="tonirovka.html" rel="nofollow">подробнее</a>
+							<a href="akcii.html#akcia-tonirovka" rel="nofollow">подробнее</a>
 						</figcaption>
 					</figure>
 				</div>	
@@ -64,7 +64,7 @@
 					<figure>
 						<img src="img/banners/pomyvka_okon_i_balkonov.png" alt="Помывка фасадов зданий" width="320" height="180" border="0" />
 						<figcaption>
-							<a href="cleaning.html" rel="nofollow">подробнее</a>
+							<a href="akcii.html#akcia-moika" rel="nofollow">подробнее</a>
 						</figcaption>
 					</figure>
 				</div>	
@@ -72,7 +72,7 @@
 					<figure>
 						<img src="img/banners/zamena_ostek.png" alt="замена фасадного остекления на теплое" width="320" height="180" border="0" />
 						<figcaption>
-							<a href="zamena.html">подробнее</a>
+							<a href="akcii.html#akcia-zamena">подробнее</a>
 						</figcaption>
 					</figure>				
 				</div>
@@ -92,16 +92,16 @@
 	<script src="js/map.js"></script>
 	<script>
 					(function() {
-						var wheight = $(window).height();
-						var width = $(window).width();
+						var wheight = $(window).height();						
+					if (window.matchMedia("(min-width: 768px)").matches) {
+						$('.fullheight').css('height', wheight);
+						$(window).resize(function(){
+						wheight = $(window).height();			
+						$('.fullheight').css('height', wheight);
+						}) 	
+					} else {$('.fullheight').css('height', 'height');}				
 						
-						if (width => '768'){
-							$('.fullheight').css('height', wheight);
-							$(window).resize(function(){
-								wheight = $(window).height();			
-								$('.fullheight').css('height', wheight);
-							}) 	
-						} else {$('.fullheight').css('height', '700px');}
+						
 						<!-- 	SCROLLING -->	
 						$(document).ready(function(){
 							$('.anchor').click( function(){ // ловим клик по ссылке с классом go_to
