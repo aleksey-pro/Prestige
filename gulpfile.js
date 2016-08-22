@@ -45,7 +45,7 @@ gulp.task('HTML', function() {
   return gulp.src('dev/**/*.html')
 	.on('error', console.log)
 	.pipe(rigger())	
-    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
+//    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest('prod'))
 	.pipe(browserSync.reload({
 	 stream: true

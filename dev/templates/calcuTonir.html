@@ -35,6 +35,16 @@
 	background-color: #3d3d3d !important; 
 	border: none !important;
 	}
+	
+@media only screen and (max-width: 320px) {
+	
+	#slider-range-max, #slider-range-max2 {
+		display: none;	
+	}	
+	#amount, #amount2, #amount3, #amount2, #amount4 {
+		    line-height: 3em;
+	}	
+}
 
 	</style>
 
@@ -42,10 +52,10 @@
 	$(function() {
 		$( "#slider-range-max" ).slider({
 			range: "max",
-			min: 100,
-			max: 10000,
+			min: 0,
+			max: 10,
 			value: 0,
-			step : 1,
+			step : 0.5,
 			slide: function( event, ui ) {
 				$( "#amount" ).val( ui.value );
 				calc();
@@ -56,10 +66,10 @@
 	$(function() {
 		$( "#slider-range-max2" ).slider({
 			range: "max",
-			min: 100,
-			max: 10000,
+			min: 0,
+			max: 10,
 			value: 0,
-			step : 1,
+			step : 0.5,
 			slide: function( event, ui ) {
 				$( "#amount2" ).val( ui.value );
 				calc();
@@ -80,7 +90,7 @@
 	 
 	//var summ;
  
-	square =  ( Number(amount) * Number(amount2) / 1000000 );
+	square =  ( Number(amount) * Number(amount2));
 	summ = 1000 * square * Number(type);
 //	document.cl_form.summ.value=summ;
 	document.getElementById("summ").innerHTML=summ.toFixed(1);
@@ -104,12 +114,12 @@
 		<option value="1.2">Защитная</option>
 	</select>	
 <p>
-	<label for="amount">Высота стекол, мм:&nbsp;&nbsp;</label>
+	<label for="amount">Высота стекол, м:&nbsp;&nbsp;</label>
 	<input type="text" id="amount" onchange="calc(this.value);"/>
 </p>
 <div id="slider-range-max"></div>
 <p>
-	<label for="amount2">Ширина стекол, мм:</label>
+	<label for="amount2">Ширина стекол, м:</label>
 	<input type="text" id="amount2" onchange="calc(this.value);"/>
 </p>
 <div id="slider-range-max2"></div>
