@@ -244,11 +244,9 @@ li {
 	opacity: 0;
 	height: 100%;
 	width: 100%;
-	transition: opacity 1s;
-	text-align: center;
+	transition: opacity 1s;	
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 
 .intro__banners figcaption a {
@@ -263,15 +261,30 @@ li {
 	color: #fff; 
 }
 
-figcaption span {
+.figcaption-header {
 	font-family: 'PT Sans Caption', sans-serif;
-    font-size: .7em;	
+    font-size: 1.3em;	
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0.5em;
 }
 
-figcaption p {
+.figcaption-text {
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #fff;
+	font-size: 0.9em;
+	text-align: center;
+	margin-bottom: 1em;
 }
+
+.figcaption-info {
+	font-family: 'PT Sans Caption', sans-serif;
+	color: #fff;
+	font-size: .7em;
+	text-align: center;
+}
+
+
 
 
 .intro__banners figure:hover img {
@@ -1139,6 +1152,40 @@ color: #8c9dc0;
 	line-height: 2.5em;}
 
 
+	<!-- tab nav styling -->
+	
+.tabs ul{
+margin:0px;
+padding:0px;
+}
+.tabs ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:5px;
+	background:#46c765;
+}
+.tabs ul li{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:10px 15px;
+	background:#e9eaeb;
+	color:#707070;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+	background:#46c765;
+	color:#fff;
+}
+.tabs ul li:hover{
+	background:#d6d6d7;
+}
+		
+	
+	
+	
 /* -----------------------------------MEDIA QUIRIES------------------------------------------- */
 
 

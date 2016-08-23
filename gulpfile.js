@@ -52,6 +52,13 @@ gulp.task('HTML', function() {
     }))	
 });
 
+gulp.task ('rigger', function(){
+	return gulp.src('dev/**/*.html')
+    .pipe(rigger())
+    .pipe(gulp.dest('prod'))
+	.pipe(browserSync.reload({stream: true}))
+});
+
 gulp.task('styles', function () {
   return gulp.src('dev/css/*.css')
 	.on('error', console.log)
@@ -63,9 +70,7 @@ gulp.task('styles', function () {
 	.pipe(minifyCSS('main.min.css'))
 	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest('prod/css'))
-	.pipe(browserSync.reload({
-	 stream: true
-	}))		
+	.pipe(browserSync.reload({stream: true}))	
 });
 
 gulp.task('jshint', function() {
@@ -80,13 +85,11 @@ gulp.task('scripts', function () {
 		 .pipe(uglify())
 		 .pipe(sourcemaps.write('.'))
 		 .pipe(gulp.dest('prod/js'))
-		 .pipe(browserSync.reload({
-		  stream: true
-          }))	 
+		 .pipe(browserSync.reload({stream: true}))	 
 });
 	
 gulp.task ('watch', function(){
-	gulp.watch('dev/**/*.html', ['HTML']);
+	gulp.watch('dev/**/*.html', ['rigger', 'HTML']);
 	gulp.watch('dev/img/*', ['images']);
 	gulp.watch('dev/fonts/**/*', ['fonts']);	
 	gulp.watch('dev/css/*.css', ['styles']);
