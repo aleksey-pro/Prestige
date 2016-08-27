@@ -390,7 +390,7 @@ li {
 	top: 10%;
 	left: calc(50% - 160px);
 	width: 320px;
-	height: 540px;
+	height: 580px;
 	border-radius: 5px;	
 	padding: 20px 0;
 	opacity: 0;
@@ -450,10 +450,11 @@ a#go {
 	opacity: 0.6;
 }
 
-.small span {
+.small span, .calc-header span {
 	font-size: 12px;
 	color: #fff;
 	text-align: justify;
+	font-family: 'PT Sans', sans-serif;
 }
 
 

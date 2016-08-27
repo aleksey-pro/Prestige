@@ -155,8 +155,58 @@
 										<link rel="stylesheet" type="text/css" href="css/main.css" />
 									  	<meta charset="utf-8">
 										<style type="text/css">	
-										
 									
+										.tabs-nav{
+											font-family: 'PT Sans', sans-serif;
+											font-size: 1.2em;
+											margin-bottom: 1em;
+											color: #fff;
+											display: inline-block;
+										}
+										
+										
+										.tabs{
+										position:relative;   
+										}
+									
+										.tab{
+										display:inline-block;        
+										}
+										
+										.tab:second-child {
+											margin-left: 2em;
+										}
+									
+										.tab>span{
+										cursor:pointer;
+										font-family: 'PT Sans', sans-serif;
+										font-size: 15px;
+										margin-bottom: 1em;
+										border: 1px solid #fff;
+									    border-radius: 3px;
+										padding: .4em;
+										background: #fffff;
+										color: white;
+										}
+									
+										.tab>span.selected{
+										background: white;
+										color: black;
+										}
+									
+										.tab-content{
+										display:none;
+										position:absolute;
+										left:0;
+										}
+										
+										.cleaning__bottom p {
+											margin: .5em 0;
+										}
+										
+										.calc-header {
+											color:#fff;
+										}
 										
 										<!-- jqueryUi Elements styling -->
 										
@@ -175,7 +225,7 @@
 											color: #5a5a5a;
 											font-weight: bold;
 											line-height: 2em;
-											margin: 8px 0 8px 20px;
+											margin: 0 80%;
 											padding: 2px;
 											text-align: center;
 											border-radius: 3px;
@@ -198,13 +248,15 @@
 										border: none !important;
 										}
 										
-									@media only screen and (max-width: 320px) {
+									@media only screen and (max-width: 480px) {
 										
-										#slider-range-max, #slider-range-max2 {
+										#slider-range-max, #slider-range-max2, #slider-range-max3, #slider-range-max4 {
 											display: none;	
 										}	
 										#amount, #amount2, #amount3, #amount2, #amount4 {
 											    line-height: 3em;
+												float: left;
+												margin-top: -15px;
 										}	
 									}
 									
@@ -214,7 +266,7 @@
 										$(function() {
 											$( "#slider-range-max" ).slider({
 												range: "max",
-												min: 1,
+												min: 0,
 												max: 100,
 												value: 0,
 												step : 1,
@@ -228,7 +280,7 @@
 										$(function() {
 											$( "#slider-range-max2" ).slider({
 												range: "max",
-												min: 1,
+												min: 0,
 												max: 100,
 												value: 0,
 												step : 1,
@@ -242,7 +294,7 @@
 										$(function() {
 											$( "#slider-range-max3" ).slider({
 												range: "max",
-												min: 0.1,
+												min: 0,
 												max: 50,
 												value: 0,
 												step : 0.1,
@@ -256,7 +308,7 @@
 										$(function() {
 											$( "#slider-range-max4" ).slider({
 												range: "max",
-												min: 0.1,
+												min: 0,
 												max: 50,
 												value: 0,
 												step : 0.1,
@@ -277,54 +329,32 @@
 										type = document.cl_form.type.value;
 										amount = document.cl_form.amount.value;
 										amount2 = document.cl_form.amount2.value;
-									//	amount3 = document.cl_form.amount3.value;
-									//	amount4 = document.cl_form.amount4.value;
+										amount3 = document.cl_form.amount3.value;
+										amount4 = document.cl_form.amount4.value;
 										
 										//var summ;
 									 
 										square =  ( Number(amount) * Number(amount2));
-									//	square2 =  ( Number(amount3) * Number(amount4) / 1000000 );
+										square2 =  ( Number(amount3) * Number(amount4));
 										summ = square * Number(type);
-									//	summ2 = square2 * 350;
+										summ2 = square2 * 350;
 									//	document.cl_form.summ.value=summ;
-										document.getElementById("summ").innerHTML=summ.toFixed(1);
+										document.getElementById("summ").innerHTML=summ.toFixed(2);
 										document.getElementById("square").innerHTML=square.toFixed(2);
-									//	document.getElementById("summ2").innerHTML=summ.toFixed(3);
-									//	document.getElementById("square2").innerHTML=square.toFixed(4);
+										document.getElementById("summ2").innerHTML=summ2.toFixed(2);
+										document.getElementById("square2").innerHTML=square2.toFixed(2);
 										return false; 
 										}
 										
-									(function($){				
-									    jQuery.fn.lightTabs = function(options){
-									        
-									        var createTabs = function(){
-									            tabs = this;
-									            i = 0;
-									            
-									            showPage = function(i){
-									                $(tabs).children("div").children("div").hide();
-									                $(tabs).children("div").children("div").eq(i).show();
-									                $(tabs).children("ul").children("li").removeClass("active");
-									                $(tabs).children("ul").children("li").eq(i).addClass("active");
-									            }
-									            
-									            showPage(0);				
-									            
-									            $(tabs).children("ul").children("li").each(function(index, element){
-									                $(element).attr("data-page", i);
-									                i++;                        
-									            });
-									            
-									            $(tabs).children("ul").children("li").click(function(){
-									                showPage(parseInt($(this).attr("data-page")));
-									            });				
-									        };		
-									        return this.each(createTabs);
-									    };	
-									})(jQuery);
-									
 									$(document).ready(function(){
-									    $(".tabs").lightTabs();
+									    $('.tab-content:first').show(0);
+									    $('.tab:first>span').addClass('selected');
+									    $('.tab>span').click(function(){
+									       $('.tab>span').removeClass('selected');
+									       $(this).addClass('selected'); 
+									       $('.tab-content').hide(0);   
+									       $(this).next('.tab-content').show(0);     
+									    });
 									});
 										
 									</script>
@@ -333,69 +363,116 @@
 									<div class="demoform"><center> 
 										<form name="cl_form">	
 											<div class="demo">
-												<center><span style="font-family: arial; font-size:14px; color:#fff; font-weight:bold;">Выберите услугу</span></center>
-												<div id="tabs">
-													<ul>
-														<li>Коммерческие объекты</li>
-														<li>Балконы, окна</li>
-													</ul>
-													<div>
-													<div class="calc1">
-														<fieldset class="calculator">
-															<legend>Калькулятор</legend>
-																<hr>
-																<div style="font-family: arial; font-size:14px; color:#fff; font-weight:bold;">
-																<center>Переместите регулятор<br />или введите данные вручную: <center> </div><hr>
-																<label for="type">Тип фасада:</label>
-																<div class="ceSelect">
-																<select class="ceSelect-selected" name="type" id="type" onchange="calc(this.value);"> 
-																	<option selected="selected" value="40">Стекло</option>
-																	<option value="28">Керамогранит</option>
-																	<option value="28">Штукатурка</option>
-																</select>	
-															<p>
-																<label for="amount">Высота стекол, м:&nbsp;&nbsp;</label>
-																<input type="text" id="amount" onchange="calc(this.value);"/>
-															</p>
-															<div id="slider-range-max"></div>
-															<p>
-																<label for="amount2">Ширина стекол, м:</label>
-																<input type="text" id="amount2" onchange="calc(this.value);"/>
-															</p>
-															<div id="slider-range-max2"></div>
-															<center>
-																<table>
-																	<tbody>
-																		   <tr>
-																			<td><p style="color: #c9a564; font-size:18px;  "  >Сумма:</p></td>
-																			<td><p style="color: #fff; font-size:20px;  " id="summ">0</p> </td>
-																			<td><p style="color: #c9a564; font-size:18px;  "  >руб.</p>  </td>
-																			</tr>		
-																	</tbody>
-																</table>
-															</center>
-															<br/>
-															<hr>
-															<center>
-																<table>
-																	<tbody>
+												<center><span class="tabs-nav">Выберите услугу</span></center>
+												<div class="tabs">
+													<div class="tab">
+														<span>Коммерческие объекты</span>
+														<div class="tab-content">
+															<div class="calc1">
+																<fieldset class="calculator">
+																	<legend>Калькулятор</legend>
+																		<hr>
+																		<div class="calc-header">
+																		<center><span>Переместите регулятор<br />или введите данные вручную:</span> <center> </div><hr>
+																		<label for="type">Тип фасада:</label>
+																		<div class="ceSelect">
+																			<select class="ceSelect-selected" name="type" id="type" onchange="calc(this.value);"> 
+																				<option selected="selected" value="40">Стекло</option>
+																				<option value="28">Керамогранит</option>
+																				<option value="28">Штукатурка</option>
+																			</select>
+																		</div>
+																	<p>
+																		<label for="amount">Высота стекол, м:&nbsp;&nbsp;</label>
+																		<input type="text" id="amount" onchange="calc(this.value);"/>
+																	</p>
+																	<div id="slider-range-max"></div>
+																	<p>
+																		<label for="amount2">Ширина стекол, м:</label>
+																		<input type="text" id="amount2" onchange="calc(this.value);"/>
+																	</p>
+																	<div id="slider-range-max2"></div>
+																	<center>
+																		<table>
+																			<tbody>
+																				   <tr>
+																					<td><p style="color: #c9a564; font-size:18px;  "  >Сумма:</p></td>
+																					<td><p style="color: #fff; font-size:20px;  " id="summ">0</p> </td>
+																					<td><p style="color: #c9a564; font-size:18px;  "  >руб.</p>  </td>
+																					</tr>		
+																			</tbody>
+																		</table>
+																	</center>
+																	<hr>
+																	<center>
+																		<table>
+																			<tbody>
 									
-																		   <tr>
-																			 <td><p style="color: #c9a564; font-size:12px;  "  >Площадь :</p></td>
-																			<td><p style="color: #fff; font-size:12px;  " id="square">0 </p> </td>
-																			<td><p style="color: #c9a564; font-size:12px;  "  >м.кв.</p>  </td>
-																			
-																		</tr>
-																		
-																	</tbody>
-																</table>
-																<div class="small">
-																<span>Замер производится по световому проему окон.</span><span> Суммированные даные ширины и<br>высоты вбиваются в калькулятор</span>	 
-																</div>
-															</center>
-														</fieldset>
-													</div><!-- calc1 -->
-													</div>
+																				   <tr>
+																					 <td><p style="color: #c9a564; font-size:12px;  "  >Площадь :</p></td>
+																					<td><p style="color: #fff; font-size:12px;  " id="square">0 </p> </td>
+																					<td><p style="color: #c9a564; font-size:12px;  "  >м.кв.</p>  </td>	
+																				   </tr>											
+																			</tbody>
+																		</table>
+																		<div class="small">
+																		<span>Данные расчета калькулятора</span><span> носят исключительно ознакомительный характер.<br>Свяжитесь с менеджером</span>
+																		</div>
+																	</center>
+																</fieldset>								
+															</div><!-- calc1 -->
+														</div><!-- tab-content -->
+													</div><!-- tab -->
+													<div class="tab">
+														<span>Окна, балконы</span>
+														<div class="tab-content">
+															<div id="calc2">
+																<fieldset class="calculator">
+																	<legend>Калькулятор</legend>
+																	<hr>
+																	<div class="calc-header"><center><span>Переместите регулятор<br/>или введите данные вручную:</span><center></div>
+																	<hr>
+																	<p>
+																		<label for="amount3">Высота стекол, м:&nbsp;&nbsp;</label>
+																		<input type="text" id="amount3" onchange="calc(this.value);"/>
+																	</p>
+																	<div id="slider-range-max3"></div>
+																	<p>
+																		<label for="amount4">Ширина стекол, м:</label>
+																		<input type="text" id="amount4" onchange="calc(this.value);"/>
+																	</p>
+																	<div id="slider-range-max4"></div>
+																	<center>
+																	<table>
+																		<tbody>
+																			   <tr>
+																				<td><p style="color: #c9a564; font-size:18px;  "  >Сумма:</p></td>
+																				<td><p style="color: #fff; font-size:20px;" id="summ2">0</p> </td>
+																				<td><p style="color: #c9a564; font-size:18px;  "  >руб.</p>  </td>
+																				</tr>		
+																		</tbody>
+																	</table>				
+																	<hr>
+																	</center>
+																	<table>
+																		<tbody>
+																			   <tr>
+																				 <td><p style="color: #c9a564; font-size:12px;  "  >Площадь :</p></td>
+																				<td><p style="color: #fff; font-size:12px;" id="square2">0 </p> </td>
+																				<td><p style="color: #c9a564; font-size:12px;  "  >м.кв.</p>  </td>
+																				
+																			</tr>										
+																		</tbody>
+																	</table>
+																	<center>
+																	<div class="small">
+																	<span>Замер производится по световому проему окон.</span><span> Суммированные даные ширины и<br>высоты вбиваются в калькулятор</span>
+																	</div><!-- small -->
+																	</center>
+																</fieldset>					
+															</div><!-- calc2 -->
+														</div><!-- tab-content -->
+													</div><!-- tab -->				
 												</div><!-- tabs -->
 											</div><!-- demo -->
 										</form>
@@ -462,7 +539,8 @@
 				<ul>
 					<li class="heading">Тонирование окон и фасадов архитектуными пленками</li>
 						<li><a href="javascript:goPage('articles/tonirVPomesh.html')">Цена пленки для тонировки окон в квартире</a></li>
-						<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>
+						<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>				<li><a href="javascript:goPage('articles/tonirplenkoi.html')">Цена тонирования окон и балконов пленкой</a></li>				<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>
+						<li><a href="javascript:goPage('articles/tonirokon.html')">Тонировкa стекол на балконе</a></li>
 				</ul>
 			</div>	
 			<div class="item__artmenu">

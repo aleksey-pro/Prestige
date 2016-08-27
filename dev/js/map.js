@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 	var marker_url = '../img/icon-location.png';
 		
 	
-	var	main_color = '#ffffff', //основной цвет
+	var	main_color = '#000', //основной цвет
 		saturation_value= -1, //насыщенность
 		brightness_value= 1; //яркость
 

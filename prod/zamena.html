@@ -169,15 +169,18 @@
 										border: none !important;
 										}
 										
-									@media only screen and (max-width: 320px) {
+									@media only screen and (max-width: 480px) {
 										
 										#slider-range-max, #slider-range-max2, #slider-range-max3, #slider-range-max4 {
 											display: none;	
 										}	
-											
 										#amount, #amount2, #amount3, #amount2, #amount4 {
 											    line-height: 3em;
 										}	
+										
+										.calculator p {
+											font-size: 1em;
+										}
 									}
 									
 										</style>
@@ -308,10 +311,8 @@
 										<input type="text" id="amount4" onchange="calc(this.value);" />
 									</p>
 									<div id="slider-range-max4"></div>
-									
-									 <br />
-									<center><table>
-									
+									<center>
+									<table>
 										<tbody>
 										       <tr>
 											    <td><p style="color: #c9a564; font-size:18px;  "  >Сумма:</p></td>
@@ -322,10 +323,10 @@
 										    
 											
 										</tbody>
-									</table><center>
-									<br /><hr>
-									<center><table>
-									
+									</table>
+									<hr>
+									<center>
+										<table>
 										<tbody>
 									
 										       <tr>
@@ -333,11 +334,10 @@
 												<td><p style="color: #fff; font-size:12px;  " id="square">0 </p> </td>
 												<td><p style="color: #c9a564; font-size:12px;  "  >м.кв.</p>  </td>
 												
-											</tr>
-											
+											</tr>		
 										</tbody>
 									</table>
-									<center>
+									</center>
 									<!-- <div class="small">
 									<center>Точная стоимость заказа <br>рассчитывается при замере<br>					 *для домов ЛенСпецСМУ рассчетная высота <br>составляет 2,8м2
 									</center>		 
@@ -436,7 +436,8 @@
 				<ul>
 					<li class="heading">Тонирование окон и фасадов архитектуными пленками</li>
 						<li><a href="javascript:goPage('articles/tonirVPomesh.html')">Цена пленки для тонировки окон в квартире</a></li>
-						<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>
+						<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>				<li><a href="javascript:goPage('articles/tonirplenkoi.html')">Цена тонирования окон и балконов пленкой</a></li>				<li><a href="javascript:goPage('articles/suntinting.html')">Пленка от солнца на окна в квартире</a></li>
+						<li><a href="javascript:goPage('articles/tonirokon.html')">Тонировкa стекол на балконе</a></li>
 				</ul>
 			</div>	
 			<div class="item__artmenu">
