@@ -1,0 +1,1 @@
+{"version":3,"sources":["transfers.js"],"names":["goPage","sPage","window","location","href"],"mappings":"AAAA,QAASA,QAAOC,GACZC,OAAOC,SAASC,KAAOH","file":"transfers.js","sourcesContent":["function goPage(sPage) {\r\n    window.location.href = sPage;\r\n}"],"sourceRoot":"/source/"}

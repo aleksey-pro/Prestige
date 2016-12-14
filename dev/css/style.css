@@ -79,7 +79,7 @@ li {
 	z-index: 100;
 	overflow: hidden;
 	width: 100%;
-	height: 400px;
+	/*height: 400px;*/
 	-webkit-transition: -webkit-transform 0.6s;
 	transition: transform 0.6s;
 	-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
@@ -87,36 +87,47 @@ li {
 }
 
 .container--open .header {
-	-webkit-transform: translate3d(0, -300px, 0);
-	transform: translate3d(0, -300px, 0);	
+	-webkit-transform: translate3d(0, -310px, 0);
+	transform: translate3d(0, -310px, 0);
 }
 
 .header__content {
-	position: absolute;
-	bottom: 0;
 	width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.header__background {
+.header__items {
 	display: block;
-	height: 350px;
+	height: 270px;
 	background-color: #3d3d3d;
+    padding-top: 2em;
+    text-align: center;
+    overflow: hidden;
 	/* background: #3d3d3d url('../img/bgmenu.jpg') center no-repeat;	 */
 }
 
-/*------------------------- items-wrap menu --------------------------*/
-
-.items-wrap {
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 30%;
-	justify-content: center;
+.items-wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
-	position: relative;
-	height: 8vw;
-	flex: 0 1 320px;
+    display: block;
+    background-color: #d2ac67;
+    opacity: 0.8;
+    border-radius: 3px;
+    flex: 1 0 40%;
+    margin: 1em 1em;
+    padding: 3px;
+}
+
+.item-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 2px;
 }
 
 .header__elements {
@@ -125,10 +136,9 @@ li {
 	justify-content: space-around;	
 	width: 100%;
 	background-color: rgba(61,61,61,.4);
-	padding-top: 45px;
 	background:#3d3d3d;
-/* 	opacity: 0.8; */	
 	flex-wrap: wrap;
+    padding: 1em 0;
 }
 
 .menu_button {
@@ -137,6 +147,9 @@ li {
 	flex-direction: row-reverse;
 }
 
+.button-svg:hover {
+    cursor: pointer;
+}
 
 .trigger {
 	position: relative;
@@ -1195,18 +1208,24 @@ padding:0px;
 
 
 @media only screen and (min-width: 1920px){
-	
-.items-wrap	{
-	 padding-top: 10%;
-}	 
+
+    .item {
+        flex: 1 0 20%;
+    }
+    .header__items {
+        padding-top: 4em;
+    }
 
 }
 
 @media only screen and (max-width: 1919px){
-	
-.items-wrap	{
-	 padding-top: 5%;
-}	 
+
+    .item {
+        flex: 1 0 20%;
+    }
+    .header__items {
+        padding-top: 4em;
+    }
 
 }
 
@@ -1248,7 +1267,11 @@ padding:0px;
 
 @media only screen and (max-width: 768px) {
 
-.zagolovok, .uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom {
+.item {
+    float: left;
+}
+
+    .zagolovok, .uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom {
 	padding: 0 10% 0 5%;
 }
 
@@ -1307,10 +1330,16 @@ textarea#posText {
 }/* @media only screen and (max-width: 768px) */
 
 @media all and (max-width: 620px) {
-	
-.header__elements {
-	display: block;
-	overflow: hidden;
+
+.items-wrapper {
+    display: block;
+}
+
+.item {
+    float: none;
+    width: 90%;
+    margin: .5em 1em;
+    padding: 0;
 }
 
 .menu_button {
@@ -1322,7 +1351,7 @@ textarea#posText {
 } 
 
 .tel{
-	padding-left: 40px;
+	padding-left: 30px;
 } 
 
 .menu_button span {
@@ -1454,6 +1483,11 @@ ul {-webkit-padding-start:  15px;}
 
 @media only screen and (max-width: 375px) {
 
+.header__elements {
+    padding: 0;
+}   
+
+
 p, li {
 	font-size: 10px;
 }
@@ -1477,6 +1511,11 @@ h1, h2 {
 
 .business__text, .cleaning__text, .tonirovka__text  {
 	padding: 0 10px;
+}
+
+
+.header__elements {
+    padding: 0.2em 0;
 }
 
 
@@ -1548,8 +1587,8 @@ div.address p {
     padding-top: 25%;
 }
 
-.item {
-   padding: 5px 0;
+.tel {
+    padding-left: 10px;
 }
 
 .callme {
