@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Sprinthost">
+    <serverData>
+      <paths name="Sprinthost">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/alplus/domains/prestigefacade.ru/public_html/ " local="$PROJECT_DIR$/prod" web="/home/alplus/domains/prestigefacade.ru/public_html/ " />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/prod/templates" />
+            <excludedPath local="true" path="$PROJECT_DIR$/prod/img" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

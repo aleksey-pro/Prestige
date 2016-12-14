@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="27c98f48-d782-4fc0-a42e-ca2b01048ee2" name="Sprinthost" url="http://ftp.prestigefasade.ru">
+        <fileTransfer host="ftp.prestigefasade.ru" port="21" password="dfcbdfccdfc3dfc8dfd8dfdfdfdfdfc7dfdfdfce" username="alplus">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
