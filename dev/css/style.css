@@ -819,12 +819,13 @@ a#go {
     width: 100%;
 }
 
-.heading {
+.artmenu__heading {
 	display: block;
 	font-size: 1em;
 	color: #FFFFFF;
     margin: 0 0 1em;	
 }
+
 
 .item__artmenu {
 	position: relative; 
@@ -1256,7 +1257,7 @@ padding:0px;
 }
 
 .contacts {
-	width: 60%;
+	width: 50%;
 }
 
 }/* @media only screen and (max-width: 992px) */
@@ -1419,7 +1420,7 @@ li, .otdelka__intro, .zagorod__intro, .zamena__intro {
 	padding: 0;
 }
 
-.heading {
+.artmenu__heading {
 	margin: 0;
 }
 
@@ -1495,8 +1496,12 @@ ul {-webkit-padding-start:  15px;}
 }
 
 
-p, li {
-	font-size: 10px;
+p {
+	font-size: 0.7em;
+}
+
+li {
+    font-size: 1em;
 }
 
 .item__title {
