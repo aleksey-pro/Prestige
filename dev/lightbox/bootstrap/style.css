@@ -128,7 +128,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     float: right;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 4px;
 }
 
@@ -148,7 +148,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     float: left;
-    margin: 0px 2px 4px 2px;
+    margin: 0 2px 4px 2px;
 }
 
 #LG_zoomNormal {

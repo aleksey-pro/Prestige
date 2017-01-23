@@ -1,5 +1,6 @@
 node_modules
 dev/img/*
+dev/akcii.html
 prod/img*
 prod/akcii.html
 prod/articles/*

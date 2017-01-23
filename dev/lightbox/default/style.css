@@ -82,7 +82,7 @@
 #LG_zoom_disabled {
     display:none;
 }
-#LG_zoomIn{background:url(sprite.gif) no-repeat 0 0px}
+#LG_zoomIn{background:url(sprite.gif) no-repeat 0 0}
 #LG_zoomIn:hover{background:url(sprite.gif) no-repeat 0 -40px}
 
 #LG_zoomNormal{background:url(sprite.gif) no-repeat 0 -80px}

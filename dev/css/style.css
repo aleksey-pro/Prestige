@@ -12,10 +12,6 @@ h1 {
 	font-weight: 500;
 	color: #6f6f6f;
 }
-.mainH1 {
-	color: #E4E1E1;	
-}
-
 
 h2 {
 	color: #000000;
@@ -79,7 +75,6 @@ li {
 	z-index: 100;
 	overflow: hidden;
 	width: 100%;
-	/*height: 400px;*/
 	-webkit-transition: -webkit-transform 0.6s;
 	transition: transform 0.6s;
 	-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
@@ -142,8 +137,7 @@ li {
 	align-items: center;
 	justify-content: space-around;	
 	width: 100%;
-	background-color: rgba(61,61,61,.4);
-	background:#3d3d3d;
+	background-color:#3d3d3d;
 	flex-wrap: wrap;
     padding: 1em 0;
 }
@@ -247,18 +241,13 @@ li {
 	flex-wrap: wrap;
 }
 
-.left-banner1, .right-banner1, .left-banner2, .right-banner2 {
-	min-width: 320px;
-}
-
-.intro__banners figure {
+.intro__banner {
 	position: relative;
 	margin: 0;
 	min-width: 320px;
 }
 
-
-.intro__banners figcaption {
+.figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -272,11 +261,11 @@ li {
 	align-items: center;
 }
 
-.intro__banners figcaption a {
+.figcaption a {
 	text-decoration: none;
 }
 
-.figcaption-header {
+.figcaption__header {
 	font-family: 'PT Sans Caption', sans-serif;
     font-size: 1.2em;	
 	color: #fff;
@@ -288,14 +277,14 @@ li {
 	margin-bottom: .5em;
 }
 
-.figcaption-text {
+.figcaption__text {
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #fff;
 	font-size: 0.9em;
 	margin: 0 .5em .5em .5em;
 }
 
-.figcaption-info {
+.figcaption__info {
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #fff;
 	font-size: .7em;
@@ -305,95 +294,45 @@ li {
 	right: 1em;
 }
 
-
-
-
-.intro__banners figure:hover img {
+.intro__image:hover {
 	opacity: 0.5;	
 }
 
-.intro__banners figure:hover figcaption {
+.figcaption:hover {
 	opacity: 0.8 !important;
 	color: #fff;
 	cursor: pointer;
 }
 
-.intro__banners figure:hover a {
+.figcaption:hover a {
 	color: #fff;
 	opacity: 1 !important;
 }
 
-.intro_text {
+.intro__text {
 	margin-top: 15%;	
 }
 
-.intro_text p {
+.animated {
 	line-height: 1.3em;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: white;
 	font-size: 1.3em;
-	text-align: center;	
-/* 	visibility: hidden; */
+	text-align: center;
 }
 
-#animated1  {
+.intro__text--animated-state1  {
 	animation-delay: 1s;
 	animation-duration: 1.5s;
 }
-#animated2  {
+.intro__text--animated-state2 {
 	animation-delay: 3s;
 	animation-duration: 1.5s;
 }
-#animated3  {
+.intro__text--animated-state3  {
 	animation-delay: 5s;
 	animation-duration: 1.5s;
 }
-
-
-/* 
- .intro_text p:nth-child(1) {
-	animation-delay: 1s;
-	animation-name: opacity-change; 
-	animation-duration: 3s;
-	visibility: visible !important;
-} 
-
-
-.intro_text p:nth-child(2) {
-	animation-delay: 3s;
-	animation-name: opacity-change; 
-	animation-duration: 3s;
-	visibility: visible !important;
-} 
-
-
- .intro_text p:nth-child(3) {
-	animation-delay: 5s;
-	animation-name: opacity-change; 
-	animation-duration: 3s;
-	visibility: visible !important;
-}   
-
-@keyframes opacity-change {
- 0% {opacity: 0; visibility: hidden;}
- 25% {opacity: 0.1}
- 50% {opacity:0.5}
- 75% {opacity:0.7}
- 100% {opacity:1}
-}
- 
- .intro__arrow {
-	position: absolute;
-	bottom: 2em;
-	left: 50%;
-	margin-right: 58px;
-}
-
-.intro__arrow img {
-	display: block;
-	cursor: pointer;
-} */
-
 
 .demoform {
 	margin: 0 10px;
@@ -441,30 +380,12 @@ li {
 	cursor: pointer;
 }
 
-/* .calc-button {
-	text-align: center;
-	margin: 2em 0;
-}
-
-.calc-button a {
-	cursor: pointer;
-} */
-
-.tonirovka .block, .cleaning .block {
-	margin: 5% auto;
-}
-
-
-a#go {
-	font-family: 'PT Sans', sans-serif;
-}
-
 #tooltip {
     z-index: 9999;
 	position: absolute;
 	display: none;
-	top:0px;
-	left:0px;
+	top:0;
+	left:0;
 	background-color: #000;
 	padding: 5px 10px 5px 10px;
 	color: white;
@@ -510,48 +431,55 @@ a#go {
 
 /*----------------- body_content------------------- */
 
-.body_content{
+.mainBody-content{
 	padding: 1em;
-	margin: 0.2em;
 	margin: 0 auto;
-	background-image: url("../img/logoFon.png");
-	background-repeat: repeat;
-/* 	background: linear-gradient(to bottom,rgb(7, 7, 7) 0,rgba(61,61,61,.20) 100%); */
-	
+	background: url("../img/logoFon.png") repeat;
 }
 
-.body_content p, .intro_text p {
-	text-transform: none;
-	padding: 10px 20% 30px;
-	color: white;
-	
+.mainBody-heading {
+    color: #E4E1E1;
+    text-align: center;
+}
+
+.mainBody-text, .animated {
+    text-transform: none;
+    color: white;
+    margin: 20px 20%;
 }
 
 /*--------------------------------  P A G E S   C O N T E N T --------------------------*/
 
 .content-wrapper {
 	padding-top: 110px;
+    background: #fff url('../img/cleaningBG.jpg') no-repeat;
+    background-size: cover;
 }
-
-
-/* .facade, .zamena, .zagorod, .tonirovka {
-	background-color: white;
-} */
 
 .article {
 	background-color: white;	
 }
 
-.cleaning, .zamena, .zagorod, .tonirovka, .bcg, .facade {
-	background: #fff url('../img/cleaningBG.jpg') no-repeat;
-	background-size: cover;
+.heading-text,
+.business__content,
+.zamena__content,
+.cleaning__content,
+.passport__content,
+.otdelka__content,
+.zagorod__otdel p,
+.article__content,
+.zagorod__content,
+.zagorod__intro,
+.zagorod__bottom,
+.tonirovka__content,
+
+.akcii__content {
+    margin: 10px 20%;
 }
 
 .business__text, .cleaning__text, .tonirovka__text  {
-	padding: 0 20%;
 	columns: 2;              
 	column-gap: 2em;
-    column-rule: 1em solid black;
 	-moz-column-rule: 1em solid transparent;
 	column-rule: 1em solid transparent;
 }
@@ -563,45 +491,35 @@ a#go {
     page-break-after: column;
 }
 
-
-.tonirovka__text {
-	padding: 20px 20%;
-}	
-
 .zagorod__text, .article__text {
 	columns: 2;              
-	column-gap: 2em; 
-	/* background-color: white; 
-	column-rule: 1em solid white;
-	-moz-column-rule: 1em solid white;
-	column-rule: 1em solid white;*/
-}	
-	
-.zagolovok, .uslugi ul, .zamena__content, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom, .tonirovka__intro, .tonirovka__vibor__content, .akcii__content {
-	padding: 10px 20%;
+	column-gap: 2em;
 }
 
- .zagolovok{
-	overflow: hidden;
-	width: 40%;
-	text-transform: uppercase;
-	padding-top: 3em;
+.heading-text{
+    overflow: hidden;
+    width: 40%;
+    text-transform: uppercase;
 }
 
- .zagolovok span {
+.heading-text--small {
 	font-size: 2em;
  }
 
-.zagolovok  img {
+.heading-text-image {
 	display: block;
 	padding-top: 10px;
 }
- 
+
+.business__uslugi .heading-text {
+    margin-left: 0!important;
+}
+
 .passport__content {
 	height: 20em;
 }
 
-.cleaning__content ul, .business__content ul, .zagorod__content ul, .article__text ul , .zamena__lists ul, .passport__content ul {
+.cleaning__uslugi, .uslugi__list, .zagorod__content ul, .article__text ul , .zamena__lists ul, .passport__content ul {
 	list-style-image: url('../img/check.png');
 }
 
@@ -609,7 +527,11 @@ a#go {
 	list-style-image: none;
 }
 
-.business__content ul {
+.cleaning-bottom__images  {
+    text-align: center;
+}
+
+.uslugi__list {
 	margin-left: 2em;
 }
 
@@ -617,18 +539,19 @@ a#go {
 	margin-top: 6%;
 }
 
-.business-bottom, .zagorod__otdel {
+.business__bottom, .zagorod__otdel, .zamena__bottom, .otdelka__bottom {
 	width: 100%;
 	background-color: #faf6ee;
 	padding: 10px 0;
 }
 
-/* .zamena__text {
-	display: flex;
-} */
-
 .zamena__intro, .zagorod__intro,.otdelka__intro {
 	margin-bottom: 2em;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.zamena__intro p, .zagorod__intro p,.otdelka__intro p, .tonirovka__intro p{
+    font-family: 'PT Sans Caption', sans-serif!important;
 }
 
 .zamena__intro img, .zagorod__intro img {
@@ -637,17 +560,22 @@ a#go {
 	margin-left: 8%;
 }
 
+.tonirovka__intro img {
+    margin-bottom: 1em;
+}
+
+
 .zagorod__intro img {
 	margin-bottom: 5%;
 }
 
 
-.smotret {
+.otdelka__button {
 	display: inline-block;
 	border-radius: 5px;
 	padding: 0.8em 2em;
 	background-color: #d2ac67;
-	margin: 5% 0;
+	margin: 5% 1em;
 	cursor: pointer;
 	width: 180px;
 	text-align: center;
@@ -657,9 +585,10 @@ a#go {
 	margin-left: 180px;
 }
 
-.zamena__important  a, .otdelka__intro ul a, .otdelka__vibor ul a, .block a {
+.zamena__important  a, .otdelka__intro ul a, .otdelka__vibor a, .calc-button a {
 	color: white;
 	text-decoration: none;
+    text-transform: uppercase;
 }
 
 .zamena__lists span {
@@ -672,44 +601,35 @@ a#go {
 	font-family: 'PT Sans', sans-serif;
 }
 
-.zamena__bottom p {
-	text-align: center;
+.zamena__quiz p {
+	text-align: left;
 }
 
-.zamena__bottom li {
+.zamena__quiz li {
 	text-align: justify;
 }
 
- .block {
+ .calc-button {
 	display:block;
 	border-radius: 5px;
 	padding: .8em 2em;
 	background-color: #d2ac67;
-	margin: 5% 0;
+	margin: 5% auto;
 	cursor: pointer;
 	text-transform: uppercase;
 	width: 180px;
 	text-align: center;
 }
-.otdelka__intro ul, .otdelka__vibor ul {
+.otdelka__uslugi, .otdelka__vibor, .gallery2 ul {
 	-webkit-padding-start: 0;
 }
 
-
-.otdelka__intro ul li, .otdelka__vibor ul li {
-	display: inline-block;
-	padding-left: 2em;	
-}
-
-.otdelka__intro ul {
+.otdelka__uslugi {
 	list-style: none !important;
 	margin-left:0;
 	font-size : 0;
 }
 
-/* .otdelka_wrapper {
-	display: flex;
-} */
 
  .otdelka__banner {
 	width: 300px;
@@ -718,8 +638,8 @@ a#go {
 }
 
 .otdelka__text h3 {
-	width: 100%;
-}
+     width: 100%;
+ }
 
 .gallery2 {
 	width: 180px;
@@ -736,14 +656,9 @@ a#go {
 }	
 
 
-.cleaning__intro {
-	width: 50%;
+.cleaning__introText {
+	width: 60%;
 	font-family: 'PT Sans Caption', sans-serif;
-	font-size: 1.1em;
-}
-
-.cleaning__intro p {
-		text-align: left;
 }
 
 .cleaning__sposob {
@@ -764,7 +679,7 @@ a#go {
 .cleaning__bottom p{
 	text-transform: uppercase;
 	font-size: 1.2em;
-	text-align: lest;
+	text-align: left;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -777,7 +692,7 @@ a#go {
 }
 
 .tonirovka__intro p{
-	text-align:left;
+	text-align: left;
 }
 
 .tonirovka__vibor {
@@ -790,7 +705,6 @@ a#go {
 	text-transform: uppercase;
 	display: inline;
 	padding: 20px 5% 20px 0;
-	font-weight: 700;
 }
 
 
@@ -799,22 +713,14 @@ a#go {
 /* ----------------------articles menu----------------------------------*/
 
 .artmenu-wrapper {
-	/* margin: 0 10%; */
-	background-image: url('../img/introBG.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
+	background: url('../img/introBG.jpg') center center no-repeat;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.artmenu {
-	/* background-color: #3d3d3d; */
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	
-}
-
-.no-flexbox  .artmenu {
+.no-flexbox  .artmenu-wrapper  {
     display: block;
     width: 100%;
 }
@@ -1180,8 +1086,8 @@ color: #8c9dc0;
 	<!-- tab nav styling -->
 	
 .tabs ul{
-margin:0px;
-padding:0px;
+margin:0;
+padding:0;
 }
 .tabs ul:after{
 	content:"";
@@ -1191,8 +1097,8 @@ padding:0px;
 	background:#46c765;
 }
 .tabs ul li{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	cursor:pointer;
 	display:block;
 	float:left;
@@ -1248,7 +1154,7 @@ padding:0px;
 
 @media only screen and (max-width: 992px) {
 
-.zagolovok, .uslugi ul, .zamena__content, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom, .tonirovka__intro, .tonirovka__vibor__content , .akcii-content{
+.heading-text, .business__uslugi ul, .zamena__content, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom  p, .zamena__bottom p .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom, .tonirovka__intro, .tonirovka__vibor__content , .akcii-content{
 	padding: 10px 10%;
 }
 
@@ -1279,7 +1185,7 @@ padding:0px;
     float: left;
 }
 
-    .zagolovok, .uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom {
+    .heading-text, .business__uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom  p, .zamena__bottom p, .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom {
 	padding: 0 10% 0 5%;
 }
 
@@ -1303,14 +1209,6 @@ padding:0px;
 	border-top: 1px solid white;
     padding-top: 5px;	
 	padding-left: 10%;
-}
-
-.smotret {
-    padding: .8em 0.1em;
-}
-
-.otdelka_wrapper {
-	display: block;
 }
 
 .tonirovka__vibor ul li {
@@ -1400,11 +1298,11 @@ h3 {
 .business__text, .cleaning__text, .tonirovka__text, .zagorod__text, .article__text  {
 	columns: 1;
 }
-.zagolovok {
+.heading-text {
 	width: 80%; 
 }
 
-.zagolovok span {
+.heading-text span {
     font-size: 1em;
 }
 
@@ -1416,7 +1314,7 @@ li, .otdelka__intro, .zagorod__intro, .zamena__intro {
     margin-top: 0;
 }
 
-.business-bottom, .zagorod__otdel {
+.business__bottom, .zagorod__otdel, .zamena__bottom {
 	padding: 0;
 }
 
@@ -1443,7 +1341,7 @@ li, .otdelka__intro, .zagorod__intro, .zamena__intro {
 	margin-left: 3px;
 }
 
-.cleaning__intro {
+.cleaning__introText {
     width: 80%;
 }
 .cleaning__bottom {
@@ -1454,13 +1352,13 @@ li, .otdelka__intro, .zagorod__intro, .zamena__intro {
     font-size: 0.7em;
 }
 
-.block {
+.calc-button {
 	margin: 1%;
     padding: .4em 1em;
 }
 
-.otdelka__vibor ul li {
-    padding-left: 0;
+.tonirovka .calc-button, .cleaning__content .calc-button {
+    margin: 5% auto;
 }
 
 .tonirovka__text p {
@@ -1553,7 +1451,7 @@ h3 {
 	margin: 0;
 }
 	
-.zagolovok span {
+.heading-text span {
     font-size: 1em;
 }
 
@@ -1564,12 +1462,6 @@ div.address p {
  .gallery2 {
 	width: 300px;
 	float: left;
-}
-
-
-.smotret {
-   margin: 1%;
-   padding: .4em 1em;
 }
 
 .zamena__important {
@@ -1611,7 +1503,7 @@ div.address p {
 
 @media only screen and (max-width: 320px) {
 
-.zagolovok, .uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business-bottom  p, .zagorod__bottom p, .article__content, .cleaning__intro, .cleaning__bottom, .tonirovka__intro 
+.heading-text, .business__uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom  p, .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom, .tonirovka__intro
 {
 	padding: 0 5%;
 }

@@ -10,7 +10,8 @@ var gulp = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer'),
 	jshint = require("gulp-jshint"),
 	plumber = require("gulp-plumber"),
-	sourcemaps = require('gulp-sourcemaps');
+	sourcemaps = require('gulp-sourcemaps'),
+  sass = require('gulp-sass');
 	
 var config = {
 	server: {
@@ -71,6 +72,12 @@ gulp.task('styles', function () {
 	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest('prod/css'))
 	.pipe(browserSync.reload({stream: true}))	
+});
+
+gulp.task('sass-styles', function() {
+  return gulp.src('dev/sass/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('dev/css'))
 });
 
 gulp.task('jshint', function() {
