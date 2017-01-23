@@ -1,3 +1,25 @@
-body {
-  background-color: #fff;
-}
+@import 'globals';
+@import 'mixins';
+@import 'normalize';
+@import 'variables';
+@import 'vendor';
+
+@import 'templates/footer';
+@import 'templates/header;
+
+@import 'components\button';
+@import 'components\calculator';
+@import 'components\callback';
+@import 'components\google_map';
+@import 'components\send_form';
+
+@import 'pages\index';
+@import 'pages\business';
+@import 'pages\cleaning';
+@import 'pages\tonirovka';
+@import 'pages\zagorod';
+@import 'pages\zamena';
+@import 'pages\otdelka';
+
+
+
