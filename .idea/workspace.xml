@@ -2,67 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f462033-8914-468a-ac3d-8ef000bf5252" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/js/fitToscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/js/lightgalleryInit.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prod/js/jquery.simplemodal-1.4.4.js.map" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/components/_send_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/pages/_otdelka.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/templates/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/akcii.html" afterPath="$PROJECT_DIR$/dev/akcii.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/belmatplenka.html" afterPath="$PROJECT_DIR$/dev/articles/belmatplenka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cenamoikafasadov.html" afterPath="$PROJECT_DIR$/dev/articles/cenamoikafasadov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cenapomfasada.html" afterPath="$PROJECT_DIR$/dev/articles/cenapomfasada.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" afterPath="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cleaningcompany.html" afterPath="$PROJECT_DIR$/dev/articles/cleaningcompany.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" afterPath="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/effectUteplBalk.html" afterPath="$PROJECT_DIR$/dev/articles/effectUteplBalk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/kakUteplit.html" afterPath="$PROJECT_DIR$/dev/articles/kakUteplit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/kuhnia.html" afterPath="$PROJECT_DIR$/dev/articles/kuhnia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/lounge.html" afterPath="$PROJECT_DIR$/dev/articles/lounge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/moikabannerov.html" afterPath="$PROJECT_DIR$/dev/articles/moikabannerov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/moikazdanii.html" afterPath="$PROJECT_DIR$/dev/articles/moikazdanii.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/panoramutepl.html" afterPath="$PROJECT_DIR$/dev/articles/panoramutepl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/plenkifordoma.html" afterPath="$PROJECT_DIR$/dev/articles/plenkifordoma.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/pomokonalpinistami.html" afterPath="$PROJECT_DIR$/dev/articles/pomokonalpinistami.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/pomokonkvart.html" afterPath="$PROJECT_DIR$/dev/articles/pomokonkvart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/preimushZameni.html" afterPath="$PROJECT_DIR$/dev/articles/preimushZameni.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/proect.html" afterPath="$PROJECT_DIR$/dev/articles/proect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/promalp.html" afterPath="$PROJECT_DIR$/dev/articles/promalp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/rabCabinet.html" afterPath="$PROJECT_DIR$/dev/articles/rabCabinet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/remizamenasp.html" afterPath="$PROJECT_DIR$/dev/articles/remizamenasp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/steklopaket.html" afterPath="$PROJECT_DIR$/dev/articles/steklopaket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/stoimpomivkiokon.html" afterPath="$PROJECT_DIR$/dev/articles/stoimpomivkiokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/suntinting.html" afterPath="$PROJECT_DIR$/dev/articles/suntinting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/suntitningokon.html" afterPath="$PROJECT_DIR$/dev/articles/suntitningokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/systems.html" afterPath="$PROJECT_DIR$/dev/articles/systems.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirVPomesh.html" afterPath="$PROJECT_DIR$/dev/articles/tonirVPomesh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirdoma.html" afterPath="$PROJECT_DIR$/dev/articles/tonirdoma.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirokon.html" afterPath="$PROJECT_DIR$/dev/articles/tonirokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirplenkoi.html" afterPath="$PROJECT_DIR$/dev/articles/tonirplenkoi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/vishka.html" afterPath="$PROJECT_DIR$/dev/articles/vishka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/zamenafasadost.html" afterPath="$PROJECT_DIR$/dev/articles/zamenafasadost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/zenit.html" afterPath="$PROJECT_DIR$/dev/articles/zenit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/business.html" afterPath="$PROJECT_DIR$/dev/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/cleaning.html" afterPath="$PROJECT_DIR$/dev/cleaning.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/calcu.css" afterPath="$PROJECT_DIR$/dev/css/calcu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/custom-elements.css" afterPath="$PROJECT_DIR$/dev/css/custom-elements.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/lightbox.css" afterPath="$PROJECT_DIR$/dev/css/lightbox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/style.css" afterPath="$PROJECT_DIR$/dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.html" afterPath="$PROJECT_DIR$/dev/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/slick.min.js" afterPath="$PROJECT_DIR$/dev/js/slick.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/lightbox/bootstrap/style.css" afterPath="$PROJECT_DIR$/dev/lightbox/bootstrap/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/lightbox/default/style.css" afterPath="$PROJECT_DIR$/dev/lightbox/default/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/lightbox/shape/style.css" afterPath="$PROJECT_DIR$/dev/lightbox/shape/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/otdelka.html" afterPath="$PROJECT_DIR$/dev/otdelka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/passport.html" afterPath="$PROJECT_DIR$/dev/passport.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/styles.scss" afterPath="$PROJECT_DIR$/dev/sass/styles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/footer-article.html" afterPath="$PROJECT_DIR$/dev/templates/footer-article.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/footer.html" afterPath="$PROJECT_DIR$/dev/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/tonirovka.html" afterPath="$PROJECT_DIR$/dev/tonirovka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/zagorod.html" afterPath="$PROJECT_DIR$/dev/zagorod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/zamena.html" afterPath="$PROJECT_DIR$/dev/zamena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kakUteplit.html" afterPath="$PROJECT_DIR$/prod/articles/kakUteplit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kuhnia.html" afterPath="$PROJECT_DIR$/prod/articles/kuhnia.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/lounge.html" afterPath="$PROJECT_DIR$/prod/articles/lounge.html" />
@@ -81,12 +29,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css" afterPath="$PROJECT_DIR$/prod/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css.map" afterPath="$PROJECT_DIR$/prod/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/index.html" afterPath="$PROJECT_DIR$/prod/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/js/slick.min.js" afterPath="$PROJECT_DIR$/prod/js/slick.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/js/slick.min.js.map" afterPath="$PROJECT_DIR$/prod/js/slick.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/otdelka.html" afterPath="$PROJECT_DIR$/prod/otdelka.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/passport.html" afterPath="$PROJECT_DIR$/prod/passport.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuMoika.html" afterPath="$PROJECT_DIR$/prod/templates/calcuMoika.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuTonir.html" afterPath="$PROJECT_DIR$/prod/templates/calcuTonir.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuZamena.html" afterPath="$PROJECT_DIR$/prod/templates/calcuZamena.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer-article.html" afterPath="$PROJECT_DIR$/prod/templates/footer-article.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer.html" afterPath="$PROJECT_DIR$/prod/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header-article.html" afterPath="$PROJECT_DIR$/prod/templates/header-article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header.html" afterPath="$PROJECT_DIR$/prod/templates/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/tonirovka.html" afterPath="$PROJECT_DIR$/prod/tonirovka.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zagorod.html" afterPath="$PROJECT_DIR$/prod/zagorod.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zamena.html" afterPath="$PROJECT_DIR$/prod/zamena.html" />
@@ -110,73 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer-article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/footer-article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tonirovka.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/tonirovka.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zamena.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/zamena.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="otdelka.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/otdelka.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.MD">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -197,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/articles/belmatplenka.html" />
-        <option value="$PROJECT_DIR$/dev/articles/cenamoikafasadov.html" />
         <option value="$PROJECT_DIR$/dev/articles/cenapomfasada.html" />
         <option value="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" />
         <option value="$PROJECT_DIR$/dev/articles/cleaningcompany.html" />
@@ -244,10 +131,12 @@
         <option value="$PROJECT_DIR$/dev/passport.html" />
         <option value="$PROJECT_DIR$/dev/zagorod.html" />
         <option value="$PROJECT_DIR$/dev/tonirovka.html" />
-        <option value="$PROJECT_DIR$/dev/templates/footer.html" />
-        <option value="$PROJECT_DIR$/dev/css/style.css" />
         <option value="$PROJECT_DIR$/dev/templates/footer-article.html" />
         <option value="$PROJECT_DIR$/dev/zamena.html" />
+        <option value="$PROJECT_DIR$/dev/templates/footer.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev/css/style.css" />
+        <option value="$PROJECT_DIR$/dev/sass/styles.scss" />
       </list>
     </option>
   </component>
@@ -321,7 +210,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -339,8 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,8 +246,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrestigeV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrestigeV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,28 +362,37 @@
       <workItem from="1483878200704" duration="2645000" />
       <workItem from="1484919740658" duration="3000" />
       <workItem from="1484919756153" duration="16567000" />
-      <workItem from="1485118397208" duration="16177000" />
+      <workItem from="1485118397208" duration="17690000" />
+      <workItem from="1485205406616" duration="6857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67071000" />
+    <option name="totallyTimeSpent" value="75441000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-4" width="1386" height="908" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996207" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2572877" sideWeight="0.5067365" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19974716" sideWeight="0.49550897" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981578" sideWeight="0.50757575" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23388116" sideWeight="0.49326348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23388116" sideWeight="0.49326348" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22179975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18787426" sideWeight="0.3729373" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19011976" sideWeight="0.38214287" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1482036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18787426" sideWeight="0.6270627" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33375475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19011976" sideWeight="0.61785716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10745891" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -488,6 +400,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19974716" sideWeight="0.49550897" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -516,188 +429,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/articles/pomokonalpinistami.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/pomokonkvart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/preimushZameni.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/proect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/promalp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/rabCabinet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/remizamenasp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/steklopaket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/stoimpomivkiokon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/suntinting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/suntitningokon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/systems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/tonirVPomesh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/tonirdoma.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/tonirokon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/tonirplenkoi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/vishka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/zenit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/akcii.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/articles/zamenafasadost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/lightgalleryInit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/transfers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/slick-custom.js" />
-    <entry file="file://$PROJECT_DIR$/dev/css/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/css/calcu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4338">
-          <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/_style.scss" />
     <entry file="file://$PROJECT_DIR$/dev/sass/_style.scss" />
-    <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/css/styles.css" />
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -722,19 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="1237" column="7" selection-start-line="1237" selection-start-column="1" selection-end-line="1237" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="47" column="190" selection-start-line="47" selection-start-column="187" selection-end-line="47" selection-end-column="190" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,15 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="44" column="45" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,17 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,14 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="8" column="2242" selection-start-line="8" selection-start-column="2228" selection-end-line="8" selection-end-column="2242" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -835,19 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/footer-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/zagorod.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="44" column="55" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,14 +537,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="44" column="49" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/footer-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/tonirovka.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
+        <state relative-caret-position="520">
           <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/zamena.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -875,10 +572,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/zamena.html">
+    <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="16" column="8751" selection-start-line="16" selection-start-column="8751" selection-end-line="16" selection-end-column="8751" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="414" column="1" selection-start-line="414" selection-start-column="1" selection-end-line="414" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/_vendor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/components/_callback.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/components/_calculator.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_cleaning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_zamena.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_zagorod.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_tonirovka.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_otdelka.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_cleaning.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_business.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/components/_google_map.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/components/_send_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding />
         </state>
       </provider>

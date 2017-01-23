@@ -334,72 +334,6 @@ li {
 	animation-duration: 1.5s;
 }
 
-.demoform {
-	margin: 0 10px;
-	border-radius: 5px;	
-}
-
-#modal_form {
-	display: none;
-	background: #939393; /* Old browsers */
-	background: -moz-linear-gradient(top, #939393 0%, #3d3d3d 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #939393 0%,#3d3d3d 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #939393 0%,#3d3d3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
-	z-index: 105;
-	position: fixed;
-	top: 10%;
-	left: calc(50% - 160px);
-	width: 320px;
-	height: 580px;
-	border-radius: 5px;	
-	padding: 20px 0;
-	opacity: 0;
-}
-
-#modal_form #modal_close {
-	cursor: pointer;
-	width: 21px;
-	height: 21px;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	display: block;	
-}
-
-#overlay {
-	display: none;		
-	background-color: #000;
-	opacity: 0.8;
-	filter: alpha (opacity=80);
-	z-index: 20;
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	cursor: pointer;
-}
-
-#tooltip {
-    z-index: 9999;
-	position: absolute;
-	display: none;
-	top:0;
-	left:0;
-	background-color: #000;
-	padding: 5px 10px 5px 10px;
-	color: white;
-	opacity: 0.6;
-}
-
-.small span, .calc-header span {
-	font-size: 12px;
-	color: #fff;
-	text-align: justify;
-	font-family: 'PT Sans', sans-serif;
-}
-
-
 #akcia-zamena, #akcia-moika, #akcia-tonirovka {
 	margin-top: 100px;
 }
@@ -454,10 +388,6 @@ li {
 	padding-top: 110px;
     background: #fff url('../img/cleaningBG.jpg') no-repeat;
     background-size: cover;
-}
-
-.article {
-	background-color: white;	
 }
 
 .heading-text,
@@ -881,8 +811,7 @@ div.address p a {
 }
 
 .sprite {
-    background-image: url(../img/spritesheet.png);
-    background-repeat: no-repeat;
+    background: url(../img/spritesheet.png) no-repeat;
     display: block;
     height: 15px;
 	margin-left: 20px;
@@ -899,67 +828,6 @@ div.address p a {
 .sprite-phone {
     background-position: -5px -47px;
 }
-
- 
-#cForm2{
-float: left;
-}
-
-input#posName, input#posEmail   {
-	/*-moz-border-radius: 14px;
-	-webkit-border-radius: 14px;
-	 border-radius: 14px; */
-	/* border: 1px solid #d2ac67; */
-	border: none;
-	margin: 5px 0;
-	font-size: .8em;
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	height: 2 em;
-	background-color: rgba(61, 61, 61, 0.2);	
-	padding: 5px;
-}
-
-textarea#posText  {
-/* 	-moz-border-radius: 14px;
-	-webkit-border-radius: 14px;
-	border-radius: 14px; */
-	/* border: 1px solid #d2ac67; */
-	border: none;
-	font-size: .8em;
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	height: 2 em;
-	background-color: rgba(61, 61, 61, 0.2);
-	padding: 5px;
-	height: 110px;
-	width: 100%;	
-}
-
-input#send {
-	cursor: pointer;
-	display: inline-block;
-	background-color: rgba(61, 61, 61, 0.2);	
-	color: #d2ac67;
-	text-decoration: none;
-	padding: .2em 1.0em;
-	border: 1px solid #d2ac67;
-	border-radius: 0;	
-	-moz-border-radius: 0;
-    -webkit-border-radius: 0;
-	margin: 5px 0;
-	float: right;
-	font-size: .8em;					
-	}	
-
-#loadBar {
-	width: 70%;
-	float: left;
-	border-radius: 14px;	
-	-moz-border-radius: 14px;
-	-webkit-border-radius: 14px;
-}	
-/* _________________________ */
 
 .image-map {
 	display: none;
@@ -995,67 +863,72 @@ input#send {
 	text-decoration: none;
 }
 
-#inline { display: none; width: 600px; }
+/*-------send form------------*/
 
-label {
-	margin-right: 12px;
-	margin-bottom: 9px;
-	font-family: 'PT Sans', sans-serif;
-	color: #fff;
-	font-size: 1.2em;
+#cForm2{
+    float: left;
 }
 
-.txt { 
-display: block; 
-color: #676767;
-width: 600px; 
-font-family: 'PT Sans', sans-serif;
-margin-bottom: 10px; 
-border: 1px dotted #ccc; 
-padding: 5px 9px;
-font-size: 1.2em;
-line-height: 1.4em;
+input#posName, input#posEmail   {
+    border: none;
+    margin: 5px 0;
+    font-size: .8em;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    height: 2 em;
+    background-color: rgba(61, 61, 61, 0.2);
+    padding: 5px;
 }
-
-.txtarea { 
-display: block; 
-resize: none;
-color: #676767;
-font-family: 'PT Sans', sans-serif;
-margin-bottom: 10px; 
-width: 500px; 
-height: 150px;
-border: 1px dotted #ccc;
-padding: 5px 9px; 
-font-size: 1.2em;
-line-height: 1.4em;
-}
-
-.txt:focus, .txtarea:focus { border-style: solid; border-color: #bababa; color: #444; }
-
-input.error, textarea.error { border-color: #973d3d; border-style: solid; background: #f0bebe; color: #a35959; }
-input.error:focus, textarea.error:focus { border-color: #973d3d; color: #a35959; }
 
 input#posEmail, input#posName, textarea#posText {
     border-left: 1px solid #d2ac67;
-    border-bottom: 1px solid #d2ac67;	
+    border-bottom: 1px solid #d2ac67;
 }
 
-#send { 
-color: #334662;
-display: block;
-cursor: pointer;
-padding: 5px 11px;
-font-size: 1.2em;
-border: solid 1px #224983;
-border-radius: 5px;
+textarea#posText  {
+    border: none;
+    border-left: 1px solid #d2ac67;
+    border-bottom: 1px solid #d2ac67;
+    font-size: .8em;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgba(61, 61, 61, 0.2);
+    padding: 5px;
+    height: 110px;
+    width: 100%;
+    outline: hidden;
 }
+
+input#send {
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgba(61, 61, 61, 0.2);
+    color: #d2ac67;
+    text-decoration: none;
+    padding: .2em 1.0em;
+    border: 1px solid #d2ac67;
+    border-radius: 0;
+    margin: 5px 0;
+    float: right;
+    font-size: .8em;
+}
+
+#loadBar {
+    width: 70%;
+    float: left;
+    border-radius: 14px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+}
+
 
 #send:active {
-color: #8c9dc0; 
+    color: #8c9dc0;
 }
 
-.callme {
+/*-------callback-button-------------*/
+
+.callback-button {
 	display: none;
 	border: 1px solid #d2ac67;
     border-radius: 0;
@@ -1072,19 +945,94 @@ color: #8c9dc0;
 	
 }
 
-.callme a {
+.callback-button a {
 	text-decoration: none;
 }
 
-.callme p {
+.callback-button p {
 	font-size: 1.2em;
 	color: #d2ac67;
 	text-align: center !important;
 	line-height: 2.5em;}
 
 
-	<!-- tab nav styling -->
-	
+	/*--------calculator styling-------TODO: get styles from calcu.css----*/
+
+
+.demoform {
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+#modal_form {
+    display: none;
+    background: #939393; /* Old browsers */
+    background: -moz-linear-gradient(top, #939393 0%, #3d3d3d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #939393 0%,#3d3d3d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #939393 0%,#3d3d3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    z-index: 105;
+    position: fixed;
+    top: 10%;
+    left: calc(50% - 160px);
+    width: 320px;
+    height: 580px;
+    border-radius: 5px;
+    padding: 20px 0;
+    opacity: 0;
+}
+
+#modal_form #modal_close {
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+}
+
+#overlay {
+    display: none;
+    background-color: #000;
+    opacity: 0.8;
+    filter: alpha (opacity=80);
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#tooltip {
+    z-index: 9999;
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    opacity: 0.6;
+}
+
+.small span, .calc-header span {
+    font-size: 12px;
+    color: #fff;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+label {
+    margin-right: 12px;
+    margin-bottom: 9px;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+}
+
 .tabs ul{
 margin:0;
 padding:0;
@@ -1495,7 +1443,7 @@ div.address p {
     padding-left: 10px;
 }
 
-.callme {
+.callback-button {
 	display: block;
 }
 
