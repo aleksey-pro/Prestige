@@ -1,0 +1,82 @@
+.artmenu {
+  background: url('#{$img}introBG.jpg') center center no-repeat;
+  @include flex(wrap, row, flex-start, stretch);
+  background-size: cover;
+  width: 100%;
+
+  .no-flexbox & {
+    display: block;
+    width: 100%;
+  }
+  &__item {
+    @include flex-element(300px, $fg: 1, $fs: 0);
+    position: relative;
+    outline: none;
+    background-color: rgba($black, 0.5);
+   }  
+  &__heading {
+    display: block;
+    font-size: 1em;
+    color: $white;
+    margin: 0 0 1em;
+  }
+}
+
+#contacts-section {
+  position: relative;
+}
+
+.contacts {
+  background: rgba($main-bg-color, 0.8);
+  width: 50%;
+  z-index: 10;
+  @include position(absolute, 0, 0, null, null);
+}
+
+.social {
+  display: inline-block;
+  margin: 0 1em;
+  p {
+    @include font ($largeFontSize, $main-font, $white);
+    text-align: left;
+  }
+  &__images {
+    margin-top: 5px;
+  }
+  &__image {
+    float: left;
+    padding-right: 8px;
+    margin-bottom: 0;
+  }
+
+  &__heading {
+    @include font ($captionSize, $main-font, $white);
+    padding: 0 1em !important;
+    text-align: left !important;
+  }
+
+}
+
+.address {
+  display: inline-block;
+  margin-left: 1em;
+  p {
+    @include font ($smallFontSize, $main-font, $link-color);
+    padding-left: 1em;
+    a {
+      padding-top: 5px;
+    }
+  }
+}
+
+.sprite-home {
+  @include sprite(-5, -5);
+}
+
+.sprite-mail {
+  @include sprite(-5, -28);
+}
+
+.sprite-phone {
+  @include sprite(-5, -47);
+}
