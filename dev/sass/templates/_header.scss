@@ -1,0 +1,120 @@
+.header {
+  @include position(fixed, null, null, null, null);
+  z-index: 100;
+  overflow: hidden;
+  width: 100%;
+  @include transition(transform 0.6s cubic-bezier(0.7, 0, 0.3, 1));
+
+  .container--open & {
+    -webkit-transform: translate3d(0, -310px, 0);
+    transform: translate3d(0, -310px, 0);
+  }
+
+  &__wrapper {
+    width: 100%;
+    @include flex(nowrap, column, flex-start, stretch);
+  }
+
+  &__menu {
+    display: block;
+    height: 270px;
+    background-color: $grey-color;
+    padding-top: 2em;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &__elements {
+    @include flex(wrap, column, space-around, center);
+    width: 100%;
+    background-color: $grey-color;
+    padding: 1em 0;
+  }
+}
+
+.menu {
+  overflow: hidden;
+  @include flex(wrap, column, flex-start, stretch);
+
+  &__item {
+    display: block;
+    background-color: $brand-color;
+    border-radius: $mainBorderRadius;
+    @include flex-element(40%, $fg: 1, $fs: 0);
+    margin: 1em 1em;
+    padding: 3px;
+    opacity: 0.8;
+  }
+  &__link {
+    @include font(.8em, $main-font, $white);
+    text-transform: uppercase;
+    padding: 2px;
+    @include transition(all .5s ease-out);
+
+    &:hover {
+      color: $white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  &__button {
+    @include flex(wrap, row-reverse, center, stretch);
+  }
+}
+
+.button-svg:hover {
+  cursor: pointer;
+}
+
+.trigger {
+  position: relative;
+  overflow: hidden;
+  margin: 0 2em 0 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  span {
+    @include position(absolute, 10%, 100%, null, null);
+    padding-right: 5px;
+  }
+}
+
+.icon {
+  rect, line {
+    stroke: $white;
+    fill: none;
+    stroke-width: 2px;
+  }
+  &--cross {
+    opacity: 0;
+  }
+}
+
+.icon--grid .trigger--active {
+  opacity: 1;
+}
+
+.menu__phone {
+  @include flex(wrap, row, center, stretch);
+  @include font($largerFontSize, $main-font, $white);
+  margin-left: 10px;
+  text-decoration: none;
+
+  a {
+    color: white;
+    text-decoration: none !important;
+  }
+  span {
+    margin-left: 10px;
+  }
+}
+
+.menu2 {
+  display: none;
+  span {
+    @include font($smallFontSize, $caption-font, $white);
+  }
+}

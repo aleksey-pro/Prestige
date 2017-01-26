@@ -1,25 +1,38 @@
-@import 'globals';
-@import 'mixins';
-@import 'normalize';
+
 @import 'variables';
-@import 'vendor';
+@import 'mixins';
 
-@import 'templates/footer';
-@import 'templates/header;
+/*--------------libs-----------------*/
 
-@import 'components\button';
-@import 'components\calculator';
-@import 'components\callback';
-@import 'components\google_map';
-@import 'components\send_form';
+//@import 'vendor';
 
-@import 'pages\index';
-@import 'pages\business';
-@import 'pages\cleaning';
-@import 'pages\tonirovka';
-@import 'pages\zagorod';
-@import 'pages\zamena';
-@import 'pages\otdelka';
+/*--------------globals-----------------*/
 
+@import 'globals';
 
+/*--------------header-----------------*/
+
+@import 'templates/_header';
+
+/*--------------pages-----------------*/
+
+@import 'pages/_index';
+@import 'pages/_business';
+@import 'pages/_cleaning';
+@import 'pages/_tonirovka';
+@import 'pages/_zagorod';
+@import 'pages/_zamena';
+@import 'pages/_otdelka';
+
+/*--------------footer-----------------*/
+
+@import 'templates/_futer';
+
+/*--------------components-----------------*/
+
+@import 'components/_calculator';
+@import 'components/_callback';
+@import 'components/_google_map';
+@import 'components/_send_form';
+@import 'components/_button';
 

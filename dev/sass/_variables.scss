@@ -1,0 +1,73 @@
+//https://hex.corvidworks.com/
+
+//#ffffff
+//255 255 255
+//white
+//#faf6ee
+//250 246 238
+//#f8f8f8
+//248 248 248
+//#e9eaeb
+//233 234 235
+//#d2ac67
+//210 172 103
+//#939393
+//147 147 147
+//#6f6f6f
+//111 111 111
+//#656565
+//101 101 101
+//#46c765
+//70 199 101
+//#3d3d3d
+//61 61 61
+//#36b6dd
+//54 182 221
+//#252424
+//37 36 36
+//#000000
+//0 0 0
+//black
+
+$main-bg-color: #3d3d3d;
+$brand-color: #d2ac67;
+$emphasis-color: #faf6ee;
+
+$grey-color: #656565;
+$lightGrey-color: #6f6f6f;
+$link-color: #36b6dd;
+$link-hover-color: #d2ac67;
+$white: #ffffff;
+$black: #000000;
+$colors: $grey-color, $lightGrey-color, $link-color, $link-hover-color, $white, $black;
+
+
+
+$main-font: 'PT Sans', sans-serif;
+$caption-font: 'PT Sans Caption', sans-serif;
+$fonts: $main-font, $caption-font;
+
+$baseFontSize: 15;
+
+@function em($pxval, $base: $baseFontSize) {
+  @return #{$pxval / $base+em};
+}
+
+$mainFontSize: em(15); //1em
+$captionSize: em(18); // 1.2em
+$h2FontSize: em(22); // 1.47em
+$listFontSize: em(15); // 1em
+$smallFontSize: em(15); //0.8em
+$largeFontSize: em(20); //1.3em
+$largerFontSize: em(27); //1.8em
+$largestFontSize: em(33); //2.2em
+
+$mainBorderRadius: 3px;
+$largeBorderRadius: 5px;
+
+$img: '../img/';
+
+
+
+
+

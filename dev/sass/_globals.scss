@@ -1,0 +1,44 @@
+body {
+  background: $main-bg-color;
+  @include font($mainFontSize, $main-font, $lightGrey-color);
+}
+
+h1 {
+  @include font($captionSize, $caption-font, $lightGrey-color);
+  font-weight: 500;
+}
+
+h2 {
+  @include font($h2FontSize, $caption-font, $black);
+}
+
+p {
+  @include font($mainFontSize, $main-font, $grey-color);
+  margin: 0.2em;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+a {
+  color: $link-color;
+  font-family: $main-font;
+  text-decoration: none;
+  cursor: pointer;
+
+  a:hover,
+  a:focus {
+    outline: none;
+    color: $brand-color;
+    text-decoration: underline;
+  }
+}
+
+legend {
+  @include font($captionSize, $main-font, $grey-color);
+}
+
+h3 {
+  @include font($captionSize, $caption-font, $grey-color);
+  width: 60%;
+  text-transform: uppercase;
+}

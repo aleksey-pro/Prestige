@@ -53,13 +53,6 @@ a:focus {
 	text-decoration: underline;
 }
 
-
-.item__title:hover,
-.item__title:focus {
-	outline: none;
-	color: #d2ac67 !important;
-}
-
 li {
 	list-style-type: none;
 	margin-bottom: .5em;
@@ -86,13 +79,13 @@ li {
 	transform: translate3d(0, -310px, 0);
 }
 
-.header__content {
+.header__wrapper {
 	width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.header__items {
+.header__menu {
 	display: block;
 	height: 270px;
 	background-color: #3d3d3d;
@@ -102,13 +95,13 @@ li {
 	/* background: #3d3d3d url('../img/bgmenu.jpg') center no-repeat;	 */
 }
 
-.items-wrapper {
+.menu {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
 }
 
-.item {
+.menu__item {
     display: block;
     background-color: #d2ac67;
     opacity: 0.8;
@@ -118,7 +111,7 @@ li {
     padding: 3px;
 }
 
-.item-link {
+.menu__link {
     color: #fff;
     text-transform: uppercase;
     font-size: .8em;
@@ -142,7 +135,7 @@ li {
     padding: 1em 0;
 }
 
-.menu_button {
+.menu__button {
 	display: flex;
 	align-items: center;
 	flex-direction: row-reverse;
@@ -155,19 +148,17 @@ li {
 .trigger {
 	position: relative;
 	overflow: hidden;
-	margin: 0 5px;
+	margin: 0 2em 0 0;
 	padding: 0;
 	width: 30px;
 	height: 30px;
 	outline: none;
 	border: none;
 	background: none;
-	margin-right: 2em;
 }
 
 .trigger span {
 	position: absolute;
-	display: block;
 	top: 10%;
 	right: 100%;
 	padding-right: 5px;
@@ -189,7 +180,7 @@ li {
  opacity: 0	
 }
 
-.tel {
+.menu__phone {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
@@ -199,7 +190,7 @@ li {
 	margin-left: 10px;
 }
 
-.tel a {
+.menu__phone a {
     color: white;
     text-decoration: none !important;
 }
@@ -216,7 +207,7 @@ li {
 }
 
 .menu2 span{	
-	color: rgb(255, 255, 255);
+	color: white;
 	font-family: "PT Sans Caption",sans-serif;
 	font-size: 0.7em;
 }
@@ -251,7 +242,7 @@ li {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #bd9116;
+	background-color: #d2ac67;
 	opacity: 0;
 	height: 100%;
 	width: 100%;
@@ -334,19 +325,19 @@ li {
 	animation-duration: 1.5s;
 }
 
+/*---------------akcii--------------*/
+/*.akcii__content p {*/
+	/*text-align: center;*/
+	/*font-size: 2em;*/
+	/*color: red;*/
+/*}
+
 #akcia-zamena, #akcia-moika, #akcia-tonirovka {
 	margin-top: 100px;
 }
 
 .header-wide:first-child {
 	margin-top: 0;
-}
-
-
-.akcii__content p {
-	text-align: center;
-	font-size: 2em;
-	color: red;
 }
 
 .header-wide {
@@ -362,21 +353,23 @@ li {
 	padding: 10px 20%;
 	display: block;	
 }
+*/
+
 
 /*----------------- body_content------------------- */
 
-.mainBody-content{
+.mainBody{
 	padding: 1em;
 	margin: 0 auto;
 	background: url("../img/logoFon.png") repeat;
 }
 
-.mainBody-heading {
-    color: #E4E1E1;
+.mainBody__heading {
+    color: white;
     text-align: center;
 }
 
-.mainBody-text, .animated {
+.mainBody__text, .animated {
     text-transform: none;
     color: white;
     margin: 20px 20%;
@@ -402,7 +395,6 @@ li {
 .zagorod__intro,
 .zagorod__bottom,
 .tonirovka__content,
-
 .akcii__content {
     margin: 10px 20%;
 }
@@ -527,7 +519,6 @@ li {
 
 .zamena__lists p {
 	font-size: 1.2em;
-	color: #909090;
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -591,17 +582,6 @@ li {
 	font-family: 'PT Sans Caption', sans-serif;
 }
 
-.cleaning__sposob {
-	background-color: silver;
-	text-transform: uppercase;
-	margin: 20px 0;
-	padding: 10px 5px;
-}
-
-.cleaning__sposob ul {
-	text-transform: none;
-}
-
 .cleaning__bottom {
 	overflow: hidden;
 }
@@ -627,7 +607,7 @@ li {
 
 .tonirovka__vibor {
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8;  /*через lighten*/
     padding: 10px 0;
 }
 
@@ -667,24 +647,7 @@ li {
 	position: relative; 
  	flex: 1 0 300px;
 	outline: none;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.item__title {
-	position: absolute;
-	width: 90%;
-	height: 40px;
-	margin: 0 20px;
-    background-color: rgba(210, 172, 103, 0.78);
-    padding: 5px 0;
-    cursor: pointer;
-	border-radius: 5px;
-}
-
-.item__title p {
-	color: #ffffff;
-	text-align: center;
-	font-family: 'PT Sans Caption', sans-serif;
+	background-color: rgba(0, 0, 0, 0.5); /*через opacity*/
 }
 
 /* ---------GOOGLE MAP----------*/
@@ -693,13 +656,8 @@ li {
   position: relative;
   width: 50%;
   height: 200px;
-  background-color: #e7eaf0;
 }
 
-
-#google-map {
-  position: relative;
-}
 
 #zoom-in, #zoom-out {
   height: 25px;
@@ -751,6 +709,10 @@ li {
 
 /* -------------------------contacts---------------------------*/
 
+#contacts-section {
+    position: relative;
+}
+
 .place {
 	position: relative;
 	overflow: hidden;
@@ -787,7 +749,7 @@ li {
 	margin-bottom: 0;
 }
 
-.social ul li  p#contakty  {
+.social ul li  p#social-heading  {
 	color: #ffffff !important;
 	font-size: 1.2em !important;
 	padding: 0 1em !important;
@@ -913,19 +875,6 @@ input#send {
     font-size: .8em;
 }
 
-#loadBar {
-    width: 70%;
-    float: left;
-    border-radius: 14px;
-    -moz-border-radius: 14px;
-    -webkit-border-radius: 14px;
-}
-
-
-#send:active {
-    color: #8c9dc0;
-}
-
 /*-------callback-button-------------*/
 
 .callback-button {
@@ -1005,18 +954,6 @@ input#send {
     cursor: pointer;
 }
 
-#tooltip {
-    z-index: 9999;
-    position: absolute;
-    display: none;
-    top:0;
-    left:0;
-    background-color: #000;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    opacity: 0.6;
-}
-
 .small span, .calc-header span {
     font-size: 12px;
     color: #fff;
@@ -1046,20 +983,19 @@ padding:0;
 }
 .tabs ul li{
 	margin:0;
-	padding:0;
 	cursor:pointer;
 	display:block;
 	float:left;
 	padding:10px 15px;
 	background:#e9eaeb;
-	color:#707070;
+	color: #6f6f6f;
 }
 .tabs ul li.active, .tabs ul li.active:hover{
 	background:#46c765;
 	color:#fff;
 }
 .tabs ul li:hover{
-	background:#d6d6d7;
+	background: #6f6f6f; /*opacity*/
 }
 		
 	

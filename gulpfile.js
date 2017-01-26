@@ -74,10 +74,18 @@ gulp.task('styles', function () {
 	.pipe(browserSync.reload({stream: true}))	
 });
 
+gulp.task('concat-styles', function () {
+  return gulp.src('dev/sass/vendor-styles/*.css')
+    .pipe(concat('_vendor.scss'))
+    .pipe(gulp.dest('dev/sass')) 
+});
+
 gulp.task('sass-styles', function() {
-  return gulp.src('dev/sass/**/*.scss')
+  return gulp.src('dev/sass/styles.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('dev/css'))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('prod/css'))
 });
 
 gulp.task('jshint', function() {

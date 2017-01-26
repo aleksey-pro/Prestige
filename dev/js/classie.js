@@ -8,6 +8,8 @@
  * classie.toggle( elem, 'my-class' )
  */
 
+
+
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
 
@@ -49,6 +51,10 @@ else {
     elem.className = elem.className.replace( classReg( c ), ' ' );
   };
 }
+
+  <!-- комментарий -->
+
+  /* комментарий */
 
 function toggleClass( elem, c ) {
   var fn = hasClass( elem, c ) ? removeClass : addClass;
