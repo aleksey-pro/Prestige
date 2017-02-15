@@ -12,7 +12,7 @@
 
   &__wrapper {
     width: 100%;
-    @include flex(nowrap, column, flex-start, stretch);
+    @include flex(nowrap, column, space-around, center);
   }
 
   &__menu {
@@ -25,7 +25,7 @@
   }
 
   &__elements {
-    @include flex(wrap, column, space-around, center);
+    @include flex(wrap, row, space-around, center);
     width: 100%;
     background-color: $grey-color;
     padding: 1em 0;
@@ -34,7 +34,7 @@
 
 .menu {
   overflow: hidden;
-  @include flex(wrap, column, flex-start, stretch);
+  @include flex(wrap, row, flex-start, stretch);
 
   &__item {
     display: block;

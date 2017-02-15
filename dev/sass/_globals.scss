@@ -42,3 +42,15 @@ h3 {
   width: 60%;
   text-transform: uppercase;
 }
+
+li {
+  list-style-type: none;
+  margin-bottom: .5em;
+  color: #656565;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+input, textarea {
+  @include inputs();
+}

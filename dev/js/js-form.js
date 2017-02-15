@@ -1,9 +1,50 @@
-// JavaScript Document
-
-$(document).ready(function() {
 // Форма обратной связи................................./
 
-var regVr22 = "<div><img style='margin-bottom:-4px;' src='../img/load.gif' alt='Отправка...' width='16' height='16'><span style='font: 11px Verdana; color:#ffffff; margin-left:6px;'>Сообщение обрабатывается...</span></div><br />";
+var inputName = document.querySelector('#posName');
+inputName.onfocus = function(){
+  if (this.value == 'Ваше имя') {
+    this.value = '';
+    this.style.color = '#ffffff';
+  }    
+};
+inputName.onblur = function(){
+  if (this.value == '') {
+    this.value = 'Ваше имя';
+    this.style.color = '#ffffff';
+  }
+};
+
+var inputEmail = document.querySelector('#posEmail');
+inputEmail.onfocus = function(){
+  if (this.value == 'e-mail') {
+    this.value = '';
+    this.style.color = '#ffffff';
+  } 
+};
+inputEmail.onblur = function() {
+  if (this.value == '') {
+    this.value = 'e-mail';
+    this.style.color = '#ffffff';
+  }
+};
+
+var inputText = document.querySelector('#posText');
+inputText.onfocus = function() {
+  if (this.value == 'Ваше сообщение') {
+    this.value = '';
+    this.style.color = '#ffffff';
+  }
+};
+inputText. onblur = function() {
+  if (this.value == '') {
+    this.value = 'Ваше сообщение';
+    this.style.color = '#ffffff';
+  }
+};
+
+$(document).ready(function() {
+
+var regVr22 = "<div><img class='popMsg'><span>Сообщение обрабатывается...</span></div>";
 
 $("#send").click(function(){
         $("#loadBar").html(regVr22).show();

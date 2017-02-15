@@ -98,9 +98,12 @@
   background-color: rgba(61, 61, 61, 0.2); //TODO
   color: $white;
   font-family: $main-font;
-  font-size: .8em;
+  font-size: $smallFontSize;
   padding: 5px;
   margin: 5px 0;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
 }
 
 @mixin bordered(){
@@ -109,7 +112,6 @@
     bottom: 1px solid $brand-color;
     radius: 0;
   }
-  cursor: pointer;
 }
 
 @mixin transition($args...) {
@@ -136,11 +138,13 @@
 }
 
 @mixin sprite ($left: 0, $top: 0){
-  background: url('#{$img}spritesheet.png') no-repeat;
-  display: block;
+  content: '';
+  background-image: url('../img/spritesheet.png');
+  background-repeat: no-repeat;
+  display: inline-block;
   height: 15px;
-  margin-left: 20px;
-  background-position: $left+px $top+px;
+  width: 15px;
+  background-position: $left + px $top + px;
 }
 
 @mixin media_mobile($from: 320, $to: 480, $orientation: false) {

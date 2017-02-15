@@ -54,29 +54,59 @@
     padding: 0 1em !important;
     text-align: left !important;
   }
-
 }
 
 .address {
-  display: inline-block;
   margin-left: 1em;
   p {
     @include font ($smallFontSize, $main-font, $link-color);
-    padding-left: 1em;
-    a {
-      padding-top: 5px;
+    margin-left: 2em;
+  }
+}
+
+.sprite-home:before {
+  @include sprite(-5, -5);
+}
+
+.sprite-mail:before {
+  @include sprite(-5, -28);
+}
+
+.sprite-phone:before {
+  @include sprite(-5, -47);
+}
+
+.image-map {
+  display: none;
+}
+
+.allrights {
+  padding: 3px;
+  display: inline;
+
+  p {
+    color: $white;
+  }
+
+  a {
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  }
+}
+
+.allrights-list{
+  border-top: 1px solid rgba(255, 255, 255, 0.18);//TODO
+
+  li {
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+
+    &:nth-child(2) {
+      float: right;
+      padding-right: 5%;
     }
   }
 }
 
-.sprite-home {
-  @include sprite(-5, -5);
-}
-
-.sprite-mail {
-  @include sprite(-5, -28);
-}
-
-.sprite-phone {
-  @include sprite(-5, -47);
-}

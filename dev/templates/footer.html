@@ -93,17 +93,13 @@
                 <p class="sprite-mail"><a href="mailto:prestigefacade@gmail.com">prestigefacade@gmail.com</a></p>
             </div>
             <div class="clear"></div>
-            <div id="fields">
-             <form id="cForm2" method="post" action="#">
-                   <ul>
-                        <li><input id="posName" type="text" name="name" value="Ваше имя" onfocus="if (this.value == 'Ваше имя') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'Ваше имя'; this.style.color = '#ffffff';}"/>
-                        <input id="posEmail" type="e-mail" name="email" value="e-mail" onfocus="if (this.value == 'e-mail') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'e-mail'; this.style.color = '#ffffff';}" /></li>
-                        <li><textarea id="posText" name="message" style="max-height: 100px" value="Ваше сообщение" onfocus="if (this.value == 'Ваше сообщение') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'Ваше сообщение'; this.style.color = '#ffffff';}" >Ваше сообщение</textarea> </li>
-                        <li><div align="center" id='loadBar'></div> </li>
-                        <li><input id="send" type="button" value="ОТПРАВИТЬ" > </li>
-                   </ul>
+            <form id="cForm2" method="POST" action="#">
+                <div><input id="posName" type="text" name="name" value="Ваше имя"/></div>
+                <div><input id="posEmail" type="e-mail" name="email" value="e-mail" /></div>
+                <div><textarea id="posText" name="message">Ваше сообщение</textarea></div>
+                <div class="submitBtn"><div id='loadBar'></div><input id="send" type="button" value="ОТПРАВИТЬ"></div>
+                </ul>
              </form>
-            </div> 	<!-- fields -->
         </div><!-- contacts -->
     </section><!-- contacts-section -->
     <div class="clear"></div>
@@ -112,7 +108,7 @@
     <div class="image-map"></div>
     <div class="clear"></div>
     <div class="allrights">
-        <ul>
+        <ul class="allrights-list">
             <li><a href="index.html">На главную</a></li>
             <li><p>Все права защищены. &copy; PrestigeFacade 2016</p></li>
         </ul>

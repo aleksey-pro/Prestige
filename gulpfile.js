@@ -60,19 +60,19 @@ gulp.task ('rigger', function(){
 	.pipe(browserSync.reload({stream: true}))
 });
 
-gulp.task('styles', function () {
-  return gulp.src('dev/css/*.css')
-	.on('error', console.log)
-	.pipe(sourcemaps.init())
-	.pipe(autoprefixer({
-		browsers: ['ie 7-9']
-	}))
-	.pipe(concat('main.css'))
-	.pipe(minifyCSS('main.min.css'))
-	.pipe(sourcemaps.write('.'))
-	.pipe(gulp.dest('prod/css'))
-	.pipe(browserSync.reload({stream: true}))	
-});
+// gulp.task('styles', function () {
+//   return gulp.src('dev/css/*.css')
+// 	.on('error', console.log)
+// 	.pipe(sourcemaps.init())
+// 	.pipe(autoprefixer({
+// 		browsers: ['ie 7-9']
+// 	}))
+// 	.pipe(concat('main.css'))
+// 	.pipe(minifyCSS('main.min.css'))
+// 	.pipe(sourcemaps.write('.'))
+// 	.pipe(gulp.dest('prod/css'))
+// 	.pipe(browserSync.reload({stream: true}))	
+// });
 
 gulp.task('concat-styles', function () {
   return gulp.src('dev/sass/vendor-styles/*.css')
@@ -80,12 +80,13 @@ gulp.task('concat-styles', function () {
     .pipe(gulp.dest('dev/sass')) 
 });
 
-gulp.task('sass-styles', function() {
+gulp.task('sass-styles', ['concat-styles'], function() {
   return gulp.src('dev/sass/styles.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('prod/css'))
+    .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('jshint', function() {
@@ -104,11 +105,17 @@ gulp.task('scripts', function () {
 });
 	
 gulp.task ('watch', function(){
+  // watch([config.sassPath + '/*.scss'], function(event, cb) {
+  //   setTimeout(function(){
+  //     gulp.start('sass');
+  //   }, 1000);
+  // });
 	gulp.watch('dev/**/*.html', ['rigger', 'HTML']);
 	gulp.watch('dev/img/*', ['images']);
 	gulp.watch('dev/fonts/**/*', ['fonts']);	
 	gulp.watch('dev/css/*.css', ['styles']);
 	gulp.watch('dev/js/*.js', ['scripts']);
+	gulp.watch('dev/sass//**/*', ['sass-styles']);
 });
 
-gulp.task ('default', ['HTML', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);	
+gulp.task ('default', ['HTML', 'fonts', 'sass-styles', 'jshint', 'scripts', 'browserSync', 'watch']);	
