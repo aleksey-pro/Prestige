@@ -1,0 +1,81 @@
+.demoform {
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+#overlay {
+  @include position(fixed, 0, 0, 0, 0);
+  display: none;
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha (opacity=80);
+  z-index: 20;
+  cursor: pointer;
+}
+
+#modal_form {
+  @include position(fixed, 10%, null, null, calc(50% - 160px));
+  display: none;
+
+  background: #939393; /* Old browsers */
+  background: -moz-linear-gradient(top, #939393 0%, #3d3d3d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #939393 0%,#3d3d3d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #939393 0%,#3d3d3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  z-index: 105;
+
+  width: 320px;
+  height: 580px;
+  border-radius: 5px;
+  padding: 20px 0;
+  opacity: 0;
+
+  #modal_close {
+    @include position(absolute, 10px, 10px, null, null);
+    display: block;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+  }
+}
+
+.small span, .calc-header span {
+  @include font ($smallFontSize, $main-font, $white);
+  text-align: justify;
+}
+
+label {
+  @include font ($captionSize, $main-font, $white);
+  margin-right: 12px;
+  margin-bottom: 9px;
+}
+
+.tabs {
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+      height: 5px;
+      background: $lightGrey-color;
+    }
+
+    li {
+      margin: 0;
+      cursor: pointer;
+      display: block;
+      float: left;
+      padding: 10px 15px;
+      background: #e9eaeb;
+      color: $lightGrey-color;
+
+      &.active, &:hover {
+        background: $lightGrey-color;
+        color: $white;
+      }
+    }
+  }
+}

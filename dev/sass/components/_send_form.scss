@@ -16,7 +16,7 @@ input#send {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  padding: .2em 1.0em;
+  padding: .2em 1em;
   border: 1px solid #d2ac67;
   border-radius: 0;
   float: right;
@@ -29,8 +29,7 @@ input#send {
   margin-right: 5px;
 
   span {
-    font: 11px Verdana;
-    color: $white;
+    @include font(11px, $main-font, $white);
   }
 }
 

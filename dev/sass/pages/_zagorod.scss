@@ -1,0 +1,40 @@
+.zagorod {
+  @extend %centered;
+
+  &__intro {
+    @extend %centered;
+    margin-bottom: 2em;
+    @include clearfix;
+
+    p {
+      font-family: $caption-font;
+    }
+
+    img {
+      display: block;
+      float: right;
+      margin-left: 8%;
+      margin-bottom: 5%;
+    }
+  }
+
+  &__text {
+    @include Columns(2, 2);
+
+    img {
+      margin-top: 6%;
+    }
+  }
+
+  &__bottom {
+    @extend %centered;
+  }
+
+  &__otdel {
+    @extend %highlited;
+
+    p {
+      @extend %centered;
+    }
+  }
+}

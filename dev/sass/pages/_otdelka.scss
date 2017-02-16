@@ -1,0 +1,55 @@
+.otdelka {
+  @extend %centered;
+
+  &__intro {
+    margin-bottom: 2em;
+
+    p {
+      font-family: $caption-font;
+    }
+
+    ul a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  &__uslugi {
+    -webkit-padding-start: 0;
+    list-style: none !important;
+    margin-left:0;
+    font-size : 0;
+  }
+
+  &__banner {
+    width: 300px;
+    float: left;
+    margin-right: 1em;
+  }
+
+  &__text h3 {
+    width: 100%;
+  }
+
+  &__vibor {
+    -webkit-padding-start: 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  &__bottom {
+    @extend %highlited;
+  }
+  &__button {
+    @extend %btn;
+    display: inline-block;
+    margin: 5% .5em;
+  }
+}
+
+

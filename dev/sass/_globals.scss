@@ -54,3 +54,35 @@ li {
 input, textarea {
   @include inputs();
 }
+
+.content-wrapper {
+  padding-top: 110px;
+  background: #fff url('../img/cleaningBG.jpg') no-repeat;
+  background-size: cover;
+}
+
+%centered {
+  margin: 10px 20%;
+}
+
+.heading-text {
+  @extend %centered;
+  overflow: hidden;
+  width: 40%;
+  text-transform: uppercase;
+
+  &--small {
+    font-size: 2em;
+  }
+
+  &-image {
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+%highlited {
+  width: 100%;
+  background-color: #faf6ee;
+  padding: 10px 0;
+}

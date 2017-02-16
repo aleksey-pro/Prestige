@@ -1,0 +1,34 @@
+.tonirovka {
+  @extend %centered;
+
+  &__text {
+    @include Columns(2, 2);
+
+    ul {
+      list-style-image: url('../img/check.png');
+    }
+  }
+
+  &__intro {
+    margin-bottom: 2em;
+
+    p {
+      font-family: $caption-font;
+      text-align: left;
+    }
+
+    img {
+      display: block;
+      float: right;
+      margin-left: 8%;
+      margin-bottom: 1em;
+    }
+  }
+
+  &__vibor ul li {
+      text-transform: uppercase;
+      display: inline;
+      padding: 20px 5% 20px 0;
+  }
+
+}

@@ -1,6 +1,6 @@
 .callback-button {
   display: none;
-  border: 1px solid #d2ac67;
+  border: 1px solid $brand-color;
   border-radius: 0;
   height: 3em;
   margin: 2em 5px;
@@ -18,8 +18,7 @@
   }
 
   p {
-    font-size: 1.2em;
-    color: #d2ac67;
+    @include font($captionSize, $brand-color, $white);
     text-align: center !important;
     line-height: 2.5em;
   }

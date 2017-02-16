@@ -1,0 +1,14 @@
+.article__content {
+  @extend %centered;
+}
+
+.article__text {
+  @include Columns(2, 2);
+
+  ul {
+    list-style-image: url('../img/check.png');
+  }
+  img  {
+    margin-top: 6%;
+  }
+}

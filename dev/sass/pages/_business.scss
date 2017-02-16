@@ -1,0 +1,20 @@
+.business {
+  @extend %centered;
+  &__text {
+    @include Columns(2, 2);
+
+
+  }
+  &__bottom {
+    @extend %highlited;
+  }
+}
+
+.business__uslugi  {
+  .heading-text {
+    margin-left: 0!important;
+  }
+  .uslugi__list {
+    list-style-image: url('../img/check.png');
+  }
+}

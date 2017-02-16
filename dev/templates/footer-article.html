@@ -75,42 +75,38 @@
         <div id="zoom-in"></div>
         <div id="zoom-out"></div>
         <div class="contacts">
-              <div class="social">
-                  <ul class="social__images">
-                      <li class="social__image"><p id="social__heading">Контакты</p>
-                      <li class="social__image"><a href="https://vk.com/prestige_facade" rel="nofollow" target="_blank"><img src="../img/vk.png" alt="vk"></a></li>
-                      <li class="social__image"><a href="http://instagram.com/prestigefacade" rel="nofollow" target="_blank"><img src="../img/insta.png" alt="insta"></a></li>
-                  </ul>
-              </div>
-            <div class="clear"></div>
-            <div class="address">
-            <p class="sprite-home">Россия, Санкт-Петербург, Загородный проспект д. 28</p>
-            <p class="sprite-phone"><span>+7-812-416-32-52</span></p>
-            <p class="sprite-mail"><a href="mailto:prestigefacade@gmail.com">prestigefacade@gmail.com</a></p>
+            <div class="social">
+                <ul class="social__images">
+                    <li class="social__image"><p class="social__heading">Контакты</p>
+                    <li class="social__image"><a href="javascript:goPage('https://vk.com/prestige_facade')" rel="nofollow" target="_blank"><img src="../img/vk.png" alt="vk"></a></li>
+                    <li class="social__image"><a href="javascript:goPage('http://instagram.com/prestigefacade')" rel="nofollow" target="_blank"><img src="../img/insta.png" alt="instagram"></a></li>
+                </ul>
             </div>
-            <div class="clear"></div>
-            <div id="fields">
-             <form id="cForm2" method="post" action="#">
-                           <ul>
-                            <li><input id="posName" type="text" name="name" value="Ваше имя" onfocus="if (this.value == 'Ваше имя') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'Ваше имя'; this.style.color = '#ffffff';}"/>
-                            <input id="posEmail" type="e-mail" name="email" value="e-mail" onfocus="if (this.value == 'e-mail') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'e-mail'; this.style.color = '#ffffff';}" /></li>
-                            <li><textarea id="posText" name="message"style="max-height: 100px" value="Ваше сообщение" onfocus="if (this.value == 'Ваше сообщение') {this.value = ''; this.style.color = '#ffffff';}" onblur="if (this.value == '') {this.value = 'Ваше сообщение'; this.style.color = '#ffffff';}" >Ваше сообщение</textarea> </li>
-                            <li><div align="center" id='loadBar'></div> </li>
-                            <li><input id="send" type="button" value="ОТПРАВИТЬ" > </li>
-                           </ul>
-              </form>
-            </div> 	<!-- fields -->
+
+            <div class="address">
+                <p class="sprite-home">Россия, Санкт-Петербург, Загородный проспект д. 28</p>
+                <p class="sprite-phone"><span>+7-812-416-32-52</span></p>
+                <p class="sprite-mail"><a href="mailto:prestigefacade@gmail.com">prestigefacade@gmail.com</a></p>
+            </div>
+
+            <form id="cForm2" method="POST" action="#">
+                <div><input id="posName" type="text" name="name" value="Ваше имя"/></div>
+                <div><input id="posEmail" type="e-mail" name="email" value="e-mail" /></div>
+                <div><textarea id="posText" name="message">Ваше сообщение</textarea></div>
+                <div class="submitBtn"><div id='loadBar'></div><input id="send" type="button" value="ОТПРАВИТЬ"></div>
+                </ul>
+            </form>
         </div><!-- contacts -->
     </section><!-- contacts-section -->
-    <div class="clear"></div>
+
     <div class="callback-button"><a href="tel:=7-812-416-3252"><p>БЫСТРЫЙ ЗВОНОК</p></a></div>
-    <div class="clear"></div>
+
     <div class="image-map"></div>
-    <div class="clear"></div>
+
     <div class="allrights">
-        <ul>
-            <li><a href="../index.html">На главную</a></li>
+        <ul class="allrights-list">
+            <li><a href="index.html">На главную</a></li>
             <li><p>Все права защищены. &copy; PrestigeFacade 2016</p></li>
         </ul>
     </div>
-</footer>		
+</footer>

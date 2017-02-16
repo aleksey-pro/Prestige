@@ -1,0 +1,37 @@
+.cleaning {
+  @extend %centered;
+
+  &__introText {
+    width: 60%;
+    font-family: $caption-font;
+  }
+
+  &__text {
+    @include Columns(2, 2);
+  }
+
+  &__uslugi {
+    list-style-image: url('../img/check.png');
+  }
+
+  &__bottom {
+  overflow: hidden;
+
+    ul {
+      list-style-image: none;
+
+      span {
+        color: $brand-color;
+      }
+    }
+    p{
+      @include font ($captionSize, $main-font, $colors);
+      text-transform: uppercase;
+      text-align: left;
+    }
+  }
+}
+
+.cleaning-bottom__images  {
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.gallery2 {
+  width: 180px;
+  float: left;
+  margin-right: 1em;
+  ul {
+    -webkit-padding-start: 0;
+  }
+}
+
+.gallery-outer {
+  background-color: $main-bg-color;
+  position: relative;
+  padding: 0 30px;
+  margin: 5% 0;
+}

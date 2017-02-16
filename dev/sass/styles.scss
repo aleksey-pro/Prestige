@@ -4,7 +4,7 @@
 
 /*--------------libs-----------------*/
 
-//@import 'vendor';
+@import 'vendor';
 
 /*--------------globals-----------------*/
 
@@ -23,6 +23,8 @@
 @import 'pages/_zagorod';
 @import 'pages/_zamena';
 @import 'pages/_otdelka';
+@import 'pages/_passport';
+@import 'pages/_articles';
 
 /*--------------footer-----------------*/
 
@@ -36,4 +38,5 @@
 @import 'components/_send_form';
 @import 'components/_button';
 @import 'components/_callback-button';
+@import 'components/_gallery.scss';
 
