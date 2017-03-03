@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f462033-8914-468a-ac3d-8ef000bf5252" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/PrestigeV2_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prod/css/styles.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PrestigeV2.iml" afterPath="$PROJECT_DIR$/.idea/PrestigeV2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/belmatplenka.html" afterPath="$PROJECT_DIR$/dev/articles/belmatplenka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cenamoikafasadov.html" afterPath="$PROJECT_DIR$/dev/articles/cenamoikafasadov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cenapomfasada.html" afterPath="$PROJECT_DIR$/dev/articles/cenapomfasada.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" afterPath="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/cleaningcompany.html" afterPath="$PROJECT_DIR$/dev/articles/cleaningcompany.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" afterPath="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/effectUteplBalk.html" afterPath="$PROJECT_DIR$/dev/articles/effectUteplBalk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/kakUteplit.html" afterPath="$PROJECT_DIR$/dev/articles/kakUteplit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/kuhnia.html" afterPath="$PROJECT_DIR$/dev/articles/kuhnia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/lounge.html" afterPath="$PROJECT_DIR$/dev/articles/lounge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/moikabannerov.html" afterPath="$PROJECT_DIR$/dev/articles/moikabannerov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/moikazdanii.html" afterPath="$PROJECT_DIR$/dev/articles/moikazdanii.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/panoramutepl.html" afterPath="$PROJECT_DIR$/dev/articles/panoramutepl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/plenkifordoma.html" afterPath="$PROJECT_DIR$/dev/articles/plenkifordoma.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/pomokonalpinistami.html" afterPath="$PROJECT_DIR$/dev/articles/pomokonalpinistami.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/pomokonkvart.html" afterPath="$PROJECT_DIR$/dev/articles/pomokonkvart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/preimushZameni.html" afterPath="$PROJECT_DIR$/dev/articles/preimushZameni.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/proect.html" afterPath="$PROJECT_DIR$/dev/articles/proect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/promalp.html" afterPath="$PROJECT_DIR$/dev/articles/promalp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/rabCabinet.html" afterPath="$PROJECT_DIR$/dev/articles/rabCabinet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/remizamenasp.html" afterPath="$PROJECT_DIR$/dev/articles/remizamenasp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/steklopaket.html" afterPath="$PROJECT_DIR$/dev/articles/steklopaket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/stoimpomivkiokon.html" afterPath="$PROJECT_DIR$/dev/articles/stoimpomivkiokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/suntinting.html" afterPath="$PROJECT_DIR$/dev/articles/suntinting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/suntitningokon.html" afterPath="$PROJECT_DIR$/dev/articles/suntitningokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/systems.html" afterPath="$PROJECT_DIR$/dev/articles/systems.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirVPomesh.html" afterPath="$PROJECT_DIR$/dev/articles/tonirVPomesh.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirdoma.html" afterPath="$PROJECT_DIR$/dev/articles/tonirdoma.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirokon.html" afterPath="$PROJECT_DIR$/dev/articles/tonirokon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/tonirplenkoi.html" afterPath="$PROJECT_DIR$/dev/articles/tonirplenkoi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/vishka.html" afterPath="$PROJECT_DIR$/dev/articles/vishka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/zamenafasadost.html" afterPath="$PROJECT_DIR$/dev/articles/zamenafasadost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/articles/zenit.html" afterPath="$PROJECT_DIR$/dev/articles/zenit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/business.html" afterPath="$PROJECT_DIR$/dev/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/cleaning.html" afterPath="$PROJECT_DIR$/dev/cleaning.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.html" afterPath="$PROJECT_DIR$/dev/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/otdelka.html" afterPath="$PROJECT_DIR$/dev/otdelka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/passport.html" afterPath="$PROJECT_DIR$/dev/passport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/_globals.scss" afterPath="$PROJECT_DIR$/dev/sass/_globals.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/components/_calculator.scss" afterPath="$PROJECT_DIR$/dev/sass/components/_calculator.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/pages/_zamena.scss" afterPath="$PROJECT_DIR$/dev/sass/pages/_zamena.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/templates/_futer.scss" afterPath="$PROJECT_DIR$/dev/sass/templates/_futer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/templates/_header.scss" afterPath="$PROJECT_DIR$/dev/sass/templates/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/calcuMoika.html" afterPath="$PROJECT_DIR$/dev/templates/calcuMoika.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/calcuTonir.html" afterPath="$PROJECT_DIR$/dev/templates/calcuTonir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/calcuZamena.html" afterPath="$PROJECT_DIR$/dev/templates/calcuZamena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/tonirovka.html" afterPath="$PROJECT_DIR$/dev/tonirovka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/zagorod.html" afterPath="$PROJECT_DIR$/dev/zagorod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/zamena.html" afterPath="$PROJECT_DIR$/dev/zamena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kakUteplit.html" afterPath="$PROJECT_DIR$/prod/articles/kakUteplit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kuhnia.html" afterPath="$PROJECT_DIR$/prod/articles/kuhnia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/lounge.html" afterPath="$PROJECT_DIR$/prod/articles/lounge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/panoramutepl.html" afterPath="$PROJECT_DIR$/prod/articles/panoramutepl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/proect.html" afterPath="$PROJECT_DIR$/prod/articles/proect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/promalp.html" afterPath="$PROJECT_DIR$/prod/articles/promalp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/rabCabinet.html" afterPath="$PROJECT_DIR$/prod/articles/rabCabinet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/remizamenasp.html" afterPath="$PROJECT_DIR$/prod/articles/remizamenasp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/steklopaket.html" afterPath="$PROJECT_DIR$/prod/articles/steklopaket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/systems.html" afterPath="$PROJECT_DIR$/prod/articles/systems.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/vishka.html" afterPath="$PROJECT_DIR$/prod/articles/vishka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/zamenafasadost.html" afterPath="$PROJECT_DIR$/prod/articles/zamenafasadost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/zenit.html" afterPath="$PROJECT_DIR$/prod/articles/zenit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/business.html" afterPath="$PROJECT_DIR$/prod/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/cleaning.html" afterPath="$PROJECT_DIR$/prod/cleaning.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css" afterPath="$PROJECT_DIR$/prod/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css.map" afterPath="$PROJECT_DIR$/prod/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/styles.css.map" afterPath="$PROJECT_DIR$/prod/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/index.html" afterPath="$PROJECT_DIR$/prod/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/otdelka.html" afterPath="$PROJECT_DIR$/prod/otdelka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/passport.html" afterPath="$PROJECT_DIR$/prod/passport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuMoika.html" afterPath="$PROJECT_DIR$/prod/templates/calcuMoika.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuTonir.html" afterPath="$PROJECT_DIR$/prod/templates/calcuTonir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuZamena.html" afterPath="$PROJECT_DIR$/prod/templates/calcuZamena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer-article.html" afterPath="$PROJECT_DIR$/prod/templates/footer-article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer.html" afterPath="$PROJECT_DIR$/prod/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header-article.html" afterPath="$PROJECT_DIR$/prod/templates/header-article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header.html" afterPath="$PROJECT_DIR$/prod/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/tonirovka.html" afterPath="$PROJECT_DIR$/prod/tonirovka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zagorod.html" afterPath="$PROJECT_DIR$/prod/zagorod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zamena.html" afterPath="$PROJECT_DIR$/prod/zamena.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <ignored path="PrestigeV2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="8" column="122" lean-forward="true" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -162,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/sass/pages/_business.scss" />
         <option value="$PROJECT_DIR$/dev/templates/calcuZamena.html" />
         <option value="$PROJECT_DIR$/dev/sass/pages/_zamena.scss" />
         <option value="$PROJECT_DIR$/dev/templates/calcuMoika.html" />
@@ -213,6 +136,7 @@
         <option value="$PROJECT_DIR$/dev/sass/media/mobile-styles.scss" />
         <option value="$PROJECT_DIR$/dev/sass/media/handheld-styles.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -320,70 +244,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,12 +412,12 @@
       <workItem from="1487007510914" duration="16761000" />
       <workItem from="1487263275455" duration="15077000" />
       <workItem from="1488030311116" duration="71000" />
-      <workItem from="1488471005361" duration="29391000" />
+      <workItem from="1488471005361" duration="29865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176042000" />
+    <option name="totallyTimeSpent" value="176516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +430,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-4" width="1386" height="908" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282636" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2572877" sideWeight="0.5067365" order="7" side_tool="true" content_ui="tabs" />
@@ -579,10 +439,10 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981578" sideWeight="0.50757575" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5006337" sideWeight="0.49326348" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22179975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5703593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46556887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17065868" sideWeight="0.2977099" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17065868" sideWeight="0.70229006" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33586818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33586818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -637,14 +497,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/articles/cenamoikafasadov.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="13" column="120" lean-forward="false" selection-start-line="13" selection-start-column="120" selection-end-line="13" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/articles/cenapomfasada.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1043,6 +895,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="122" lean-forward="true" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
           <folding />
         </state>
       </provider>
