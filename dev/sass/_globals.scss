@@ -47,7 +47,7 @@ li {
   list-style-type: none;
   margin-bottom: .5em;
   color: #656565;
-  font-size: 15px;
+  font-size: 1em;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -68,7 +68,7 @@ input, textarea {
 .heading-text {
   @extend %centered;
   overflow: hidden;
-  width: 40%;
+  width: 50%;
   text-transform: uppercase;
 
   &--small {

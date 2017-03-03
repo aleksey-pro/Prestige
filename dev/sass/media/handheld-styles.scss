@@ -1,0 +1,170 @@
+@media only screen and (max-width: 768px) {
+
+
+    .contacts, #cForm2, input#send  {
+        position: relative;
+    }
+    .contacts {
+        width: 90%;
+        border-top: 1px solid white;
+        padding-top: 5px;
+        padding-left: 10%;
+    }
+
+    div.address {
+        margin-left: 0;
+    }
+
+    textarea#posText {
+        width: 60%;
+    }
+
+    .image-map {
+        display: block;
+        height: 200px;
+        background: #fff url('../img/map.png') 0 0 no-repeat;
+        background-size: cover;
+    }
+
+
+}/* @media only screen and (max-width: 768px) */
+
+@media all and (max-width: 620px) {
+
+    .menu {
+      display: block !important;
+
+      &__item {
+        float: none !important;
+        margin: .5em 1em !important;
+        padding: 0 !important;
+      }
+      &__button {
+        float: right !important;
+        span {
+          display: none !important;
+        }
+      }
+      &__phone{
+        padding-left: 30px;
+        font-size: 14px !important;
+        float: left;
+        margin-left: 0;
+        margin-bottom: 3px;
+      }
+    }
+    .logo {
+        padding-left: 20px;
+        padding-top: .5em;
+    }
+
+    .intro__text {
+        margin-top: 25% !important;
+    }
+
+    .menu2 {
+        display: none !important;
+    }
+
+    h2, h3 {
+        font-size: 1em !important;
+        width: 100% !important;
+    }
+
+    .business__text, .cleaning__text, .tonirovka__text, .zagorod__text, .article__text  {
+        columns: 1 !important;
+    }
+    .heading-text {
+        width: 80%;
+        margin: 10px 5% !important;
+    }
+
+    .heading-text span {
+        font-size: 1em !important;
+    }
+
+    li, .otdelka__intro, .zagorod__intro, .zamena__intro {
+        margin-bottom: 0;
+    }
+
+    .article__text img, .business__text img, .zagorod__text img {
+        margin-top: 0;
+    }
+
+    .business__bottom, .zagorod__otdel, .zamena__bottom {
+        padding: 0;
+    }
+
+    .artmenu__heading {
+        margin: 0;
+    }
+
+    .zagorod__intro img, .zamena__intro img {
+        display: inline;
+        margin-left: 3px;
+        clear: left;
+    }
+    .zagorod__intro p, .zamena__intro p {
+       clear: both;
+     }
+
+    .zamena__text  {
+        display: block;
+    }
+
+    .gallery:after {
+        clear:both;
+    }
+
+    .gallery ul  li{
+        display: inline;
+        float: left;
+        margin-left: 3px;
+    }
+
+    .cleaning__introText {
+        width: 80% !important;
+    }
+    .cleaning__bottom {
+        padding-bottom: 5px;
+    }
+
+    .cleaning__bottom p {
+        font-size: 0.7em;
+    }
+
+    .calc-button {
+        margin: 1% auto;
+        padding: .4em 1em;
+    }
+
+    .tonirovka .calc-button, .calc-button {
+        margin: 5% auto;
+    }
+
+    .tonirovka__text p {
+        margin-bottom: 10px;
+    }
+
+    .contacts {
+        padding-left: 0;
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    ul {-webkit-padding-start:  15px;}
+
+
+    .first-column {
+        -webkit-column-break-after: auto;
+        page-break-after: auto;
+        break-after: auto;
+    }
+
+    .second-column {
+        -webkit-column-break-after: avoid;
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+}/* media all and (max-width: 620px) */

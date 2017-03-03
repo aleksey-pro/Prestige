@@ -45,9 +45,9 @@ gulp.task('fonts', function() {
 gulp.task('HTML', function() {
   return gulp.src('dev/**/*.html')
 	.on('error', console.log)
-	.pipe(rigger())	
-    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
-    .pipe(gulp.dest('prod'))
+	.pipe(rigger())
+  .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
+  .pipe(gulp.dest('prod'))
 	.pipe(browserSync.reload({
 	 stream: true
     }))	
@@ -60,19 +60,27 @@ gulp.task ('rigger', function(){
 	.pipe(browserSync.reload({stream: true}))
 });
 
-// gulp.task('styles', function () {
-//   return gulp.src('dev/css/*.css')
-// 	.on('error', console.log)
-// 	.pipe(sourcemaps.init())
-// 	.pipe(autoprefixer({
-// 		browsers: ['ie 7-9']
-// 	}))
-// 	.pipe(concat('main.css'))
-// 	.pipe(minifyCSS('main.min.css'))
-// 	.pipe(sourcemaps.write('.'))
-// 	.pipe(gulp.dest('prod/css'))
-// 	.pipe(browserSync.reload({stream: true}))	
-// });
+gulp.task('styles', function () {
+  return gulp.src('dev/css/*.css')
+	.on('error', console.log)
+	.pipe(sourcemaps.init())
+	.pipe(autoprefixer())
+	.pipe(concat('main.css'))
+	.pipe(minifyCSS('main.min.css'))
+	.pipe(sourcemaps.write('.'))
+	.pipe(gulp.dest('prod/css'))
+	.pipe(browserSync.reload({stream: true}))
+});
+
+gulp.task('media-styles', function () {
+  return gulp.src('dev/sass/media/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(autoprefixer())
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('prod/css'))
+    .pipe(browserSync.reload({stream: true}))
+});
 
 gulp.task('concat-styles', function () {
   return gulp.src('dev/sass/vendor-styles/*.css')
@@ -83,7 +91,8 @@ gulp.task('concat-styles', function () {
 gulp.task('sass-styles', ['concat-styles'], function() {
   return gulp.src('dev/sass/styles.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(autoprefixer())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('prod/css'))
     .pipe(browserSync.reload({stream: true}))
@@ -114,8 +123,9 @@ gulp.task ('watch', function(){
 	gulp.watch('dev/img/*', ['images']);
 	gulp.watch('dev/fonts/**/*', ['fonts']);	
 	gulp.watch('dev/css/*.css', ['styles']);
+	gulp.watch('dev/sass/media/*', ['media-styles']);
 	gulp.watch('dev/js/*.js', ['scripts']);
-	gulp.watch('dev/sass//**/*', ['sass-styles']);
+	gulp.watch('dev/sass//**/*', !'dev/sass/media',['sass-styles']);
 });
 
-gulp.task ('default', ['HTML', 'fonts', 'sass-styles', 'jshint', 'scripts', 'browserSync', 'watch']);	
+gulp.task ('default', ['HTML', 'fonts', 'sass-styles', 'media-styles', 'jshint', 'scripts', 'browserSync', 'watch']);

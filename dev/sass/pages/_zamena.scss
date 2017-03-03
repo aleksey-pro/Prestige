@@ -7,9 +7,10 @@
       font-family: $caption-font;
     }
     img {
-      display: block;
+      display: inline-block;
       float: right;
-      margin-left: 8%;
+      margin-left: 3px;
+      clear: left;
     }
   }
 
