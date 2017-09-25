@@ -402,7 +402,6 @@ li {
 .zagorod__intro,
 .zagorod__bottom,
 .tonirovka__content,
-
 .akcii__content {
     margin: 10px 20%;
 }
@@ -1369,6 +1368,7 @@ h1, h2 {
 
 .business__text, .cleaning__text, .tonirovka__text  {
 	padding: 0 10px;
+	margin: 5% 0;
 }
 
 
@@ -1458,6 +1458,23 @@ div.address p {
 
 .zamena__lists {
 	padding: 0 4%;
+}
+
+
+.heading-text,
+.business__content,
+.zamena__content,
+.cleaning__content,
+.passport__content,
+.otdelka__content,
+.zagorod__otdel p,
+.article__content,
+.zagorod__content,
+.zagorod__intro,
+.zagorod__bottom,
+.tonirovka__content,
+.akcii__content {
+    margin: 5% 10px;
 }
 
  .zamena__content, .akcii-content {

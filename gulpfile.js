@@ -68,7 +68,7 @@ gulp.task('styles', function () {
 		browsers: ['ie 7-9']
 	}))
 	.pipe(concat('main.css'))
-	.pipe(minifyCSS('main.min.css'))
+	// .pipe(minifyCSS('main.min.css'))
 	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest('prod/css'))
 	.pipe(browserSync.reload({stream: true}))	
