@@ -1,4 +1,6 @@
 node_modules
+dev/img
+prod/img
 dev/akcii.html
 prod/akcii.html
 prod/articles/*
