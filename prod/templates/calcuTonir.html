@@ -1,4 +1,9 @@
-<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script><meta charset="utf-8"><style type="text/css">demo { overflow:  hidden; }
+
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  	<meta charset="utf-8">
+	<style type="text/css">	
+	demo { overflow:  hidden; }
 	
 	.ui-widget{font-size: 0.7em !important; }
 	
@@ -45,7 +50,12 @@
 	.calculator p {
 		font-size: 1em;
 	}
-}</style><script>$(function() {
+}
+
+	</style>
+
+	<script>
+	$(function() {
 		$( "#slider-range-max" ).slider({
 			range: "max",
 			min: 0,
@@ -92,7 +102,61 @@
 	document.getElementById("summ").innerHTML=summ.toFixed(1);
 	document.getElementById("square").innerHTML=square.toFixed(2);
 	return false; 
-	}</script><div class="demoform"><center><form name="cl_form"><div class="demo"><fieldset class="calculator"><legend>Калькулятор</legend><hr><div style="font-family: arial; font-size:14px; color:#fff; font-weight:bold"><center>Переместите регулятор<br>или введите данные вручную:<center></center></center></div><hr><label for="type">Тип пленки:</label><div class="ceSelect"><select class="ceSelect-selected" name="type" id="type" onchange="calc(this.value)"><option selected="selected" value="1">Прозрачная теплоотражающая</option><option value="1">Металлизированная отражающая</option><option value="1">Декоративная матовая</option><option value="1.2">Защитная</option></select></div><p><label for="amount">Высота стекол, м:&nbsp;&nbsp;</label><input type="text" id="amount" onchange="calc(this.value)"></p><div id="slider-range-max"></div><p><label for="amount2">Ширина стекол, м:</label><input type="text" id="amount2" onchange="calc(this.value)"></p><div id="slider-range-max2"></div><p><center><table><tbody><tr><td><p style="color: #c9a564; font-size:18px">Сумма:</p></td><td><p style="color: #fff; font-size:20px" id="summ">0</p></td><td><p style="color: #c9a564; font-size:18px">руб.</p></td></tr></tbody></table><center><br><hr><center><table><tbody><tr><td><p style="color: #c9a564; font-size:12px">Площадь :</p></td><td><p style="color: #fff; font-size:12px" id="square">0</p></td><td><p style="color: #c9a564; font-size:12px">м.кв.</p></td></tr></tbody></table><center><div class="small"><span>Замер производится по световому проему окон.</span><span> Суммированные даные ширины и<br>высоты вбиваются в калькулятор</span></div></center></center></center></center></p></fieldset></div></form></center></div><center></center>�ему окон.</span><span> Суммированные даные ширины и<br>высоты вбиваются в калькулятор</span>
+	}
+	</script>
+<div class="demoform"><center> 
+<form name="cl_form">	
+<div class="demo">
+<fieldset class="calculator">
+<legend>Калькулятор</legend>
+    <hr><div style="font-family: arial; font-size:14px; color:#fff; font-weight:bold;">
+	<center>Переместите регулятор<br />или введите данные вручную: <center> </div><hr>
+ 	<label for="type">Тип пленки:</label>
+	<div class="ceSelect">
+	<select class="ceSelect-selected" name="type" id="type" onchange="calc(this.value);"> 
+		<option selected="selected" value="1">Прозрачная теплоотражающая</option>
+		<option value="1">Металлизированная отражающая</option>
+		<option value="1">Декоративная матовая</option>
+		<option value="1.2">Защитная</option>
+	</select>
+	</div>
+<p>
+	<label for="amount">Высота стекол, м:&nbsp;&nbsp;</label>
+	<input type="text" id="amount" onchange="calc(this.value);"/>
+</p>
+<div id="slider-range-max"></div>
+<p>
+	<label for="amount2">Ширина стекол, м:</label>
+	<input type="text" id="amount2" onchange="calc(this.value);"/>
+</p>
+<div id="slider-range-max2"></div>
+<p>
+<center><table>
+	<tbody>
+	       <tr>
+		    <td><p style="color: #c9a564; font-size:18px;  "  >Сумма:</p></td>
+			<td><p style="color: #fff; font-size:20px;  " id="summ">0</p> </td>
+			<td><p style="color: #c9a564; font-size:18px;  "  >руб.</p>  </td>
+			</tr>		
+	</tbody>
+</table><center>
+<br /><hr>
+<center><table>
+
+	<tbody>
+
+	       <tr>
+		     <td><p style="color: #c9a564; font-size:12px;  "  >Площадь :</p></td>
+			<td><p style="color: #fff; font-size:12px;  " id="square">0 </p> </td>
+			<td><p style="color: #c9a564; font-size:12px;  "  >м.кв.</p>  </td>
+			
+		</tr>
+		
+	</tbody>
+</table>
+<center>
+<div class="small">
+<span>Замер производится по световому проему окон.</span><span> Суммированные даные ширины и<br>высоты вбиваются в калькулятор</span>
 </center>		 
 </div>
 </fieldset>
