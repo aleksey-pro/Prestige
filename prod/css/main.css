@@ -2923,6 +2923,74 @@ li {
 
 /*  H E A D E R */
 
+
+ul,li{
+   padding:0;
+  margin:0 auto;
+}
+[class*='icon']{
+display: inline-block;
+margin: 16px;
+  margin-top: 10px;
+font-size: 24px;
+text-align: center;
+  color: #fff;
+  font-size: 3em;
+  cursor:pointer;
+  &:hover{
+
+    color: #e1e1e1;
+  }
+}
+
+.navbar{
+  background:#09c;
+  width: 100%;
+  height: 75px;
+  position: absolute;
+    z-index: 99999;
+  box-shadow: 0 0 10px #000;
+}
+.menu{
+  position: absolute;
+  left:0;
+}
+.settings{
+  position: absolute;
+  right:0;
+}
+.icon-menu{
+
+}
+nav{
+  position: absolute;
+  background:  darken(#0099cc, 10%);
+  width: 100%;
+  left:0;
+  top: -100%;
+  z-index: 999;
+  transition-timing: 1s;
+    box-shadow: 0 0 10px #000;
+
+  li {
+    list-style: none;
+    text-align: center;
+    a {
+      display:block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 24pt;
+
+      &:hover{
+        background:  darken(#0099cc, 5%);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
 .header {
 	position: fixed;
 	z-index: 100;
@@ -2930,11 +2998,18 @@ li {
 	width: 100%;
 	transition: transform 0.6s;
 	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-	transform: translate3d(0, 0, 0);
+    margin-top: 0;
+
+    /* -webkit-transform: translate3d(0, 0, 0); */
+	/* transform: translate3d(0, 0, 0); */
 
 }
-.container--closed .header {
-	transform: translate3d(0, -140px, 0);
+.container--open .header {
+    height: 250px;
+    margin-top: -120px;
+	transition: transform 0.6s;
+    /* -webkit-transform: translate3d(0, -60%, 0); */
+	/* transform: translate3d(0, -60%, 0); */
  }
 
 .header__content {
@@ -3230,6 +3305,7 @@ li {
 	padding: 1em;
 	margin: 0 auto;
 	background: url("../img/logoFon.png") repeat;
+    text-align: center;
 }
 
 .mainBody-heading {
@@ -3241,6 +3317,7 @@ li {
     text-transform: none;
     color:#3d3d3d;
     margin: 20px 20%;
+    text-align: center;
 }
 
 .mainBody-text
@@ -3954,7 +4031,7 @@ padding:0;
         flex: 1 0 20%;
     }
     .header__items {
-        padding-top: 4em;
+        padding-top: 3em;
     }
 
 }
