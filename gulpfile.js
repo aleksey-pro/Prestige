@@ -12,17 +12,17 @@ var gulp = require('gulp'),
 	plumber = require("gulp-plumber"),
 	sourcemaps = require('gulp-sourcemaps'),
   sass = require('gulp-sass');
-	
+
 var config = {
 	server: {
-		baseDir: 'prod'
+		baseDir: 'docs'
 	},
 	tunnel: false,  //-------------set to true!!!
 	host: 'localhost',
 	port: 3000,
 	logPrefix: "DaveGhan prod.",
 	browser: "chrome"
-};	
+};
 
 gulp.task ('browserSync', function(){
 	browserSync(config)
@@ -31,7 +31,7 @@ gulp.task ('browserSync', function(){
 gulp.task('images', function() {
 	return gulp.src('dev/img/**/*')
 	.pipe(imagemin())
-	.pipe(gulp.dest('prod/img'))
+	.pipe(gulp.dest('docs/img'))
 	.pipe(browserSync.reload({
 	 stream: true
     }))
@@ -39,24 +39,24 @@ gulp.task('images', function() {
 
 gulp.task('fonts', function() {
 	return gulp.src('dev/fonts/**/*')
-	.pipe(gulp.dest('prod/fonts'))		
+	.pipe(gulp.dest('docs/fonts'))
 });
 
 gulp.task('HTML', function() {
   return gulp.src('dev/**/*.html')
 	.on('error', console.log)
-	.pipe(rigger())	
+	.pipe(rigger())
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
-    .pipe(gulp.dest('prod'))
+    .pipe(gulp.dest('docs'))
 	.pipe(browserSync.reload({
 	 stream: true
-    }))	
+    }))
 });
 
 gulp.task ('rigger', function(){
 	return gulp.src('dev/**/*.html')
     .pipe(rigger())
-    .pipe(gulp.dest('prod'))
+    .pipe(gulp.dest('docs'))
 	.pipe(browserSync.reload({stream: true}))
 });
 
@@ -70,8 +70,8 @@ gulp.task('styles', function () {
 	.pipe(concat('main.css'))
 	// .pipe(minifyCSS('main.min.css'))
 	.pipe(sourcemaps.write('.'))
-	.pipe(gulp.dest('prod/css'))
-	.pipe(browserSync.reload({stream: true}))	
+	.pipe(gulp.dest('docs/css'))
+	.pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('sass-styles', function() {
@@ -91,16 +91,16 @@ gulp.task('scripts', function () {
 		 .pipe(sourcemaps.init())
 		 .pipe(uglify())
 		 .pipe(sourcemaps.write('.'))
-		 .pipe(gulp.dest('prod/js'))
-		 .pipe(browserSync.reload({stream: true}))	 
+		 .pipe(gulp.dest('docs/js'))
+		 .pipe(browserSync.reload({stream: true}))
 });
-	
+
 gulp.task ('watch', function(){
 	gulp.watch('dev/**/*.html', ['rigger', 'HTML']);
 	gulp.watch('dev/img/*', ['images']);
-	gulp.watch('dev/fonts/**/*', ['fonts']);	
+	gulp.watch('dev/fonts/**/*', ['fonts']);
 	gulp.watch('dev/css/*.css', ['styles']);
 	gulp.watch('dev/js/*.js', ['scripts']);
 });
 
-gulp.task ('default', ['HTML', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);	
+gulp.task ('default', ['HTML', 'fonts', 'styles', 'jshint', 'scripts', 'browserSync', 'watch']);
