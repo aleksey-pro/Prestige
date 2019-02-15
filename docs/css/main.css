@@ -2944,9 +2944,20 @@ header {
 }
 
 .navigation .tel {
-    float: right;
     font-size: 1.3rem;
     color: #ffffff;
+    margin-right: 10px;
+}
+
+.navigation .tel-block {
+    float: right;
+    border: 1px solid #d2ac67;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navigation .tel-block img {
+    margin-right: 10px;
 }
 
 .navigation-toggle {
@@ -3185,6 +3196,10 @@ nav {
 .callnow .tel {
     font-size: 25px;
     color: #ffffff;
+    border: 1px solid #d2ac67;
+    padding: 5px;
+    border-radius: 5px;
+
 }
 
 .animated {
@@ -3254,7 +3269,8 @@ nav {
 }
 
 h1.mainBody-text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
 }
 
 
@@ -3267,12 +3283,15 @@ h1.mainBody-text {
 }
 
 .mainBody-text {
-    color: #36b6dd !important;
+    color: #36b6dd;
 }
 
 .mainBody-text .tel {
     font-size: 25px;
     color: #ffffff;
+    border: 1px solid #d2ac67;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 

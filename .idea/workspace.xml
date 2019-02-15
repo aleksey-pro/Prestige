@@ -2,74 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f462033-8914-468a-ac3d-8ef000bf5252" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PrestigeV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PrestigeV2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/PrestigeV2_node_modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/sass/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/akcii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/akcii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/belmatplenka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/belmatplenka.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/kakUteplit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kakUteplit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/kuhnia.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kuhnia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/lounge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/moikabannerov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikabannerov.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/moikazdanii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikazdanii.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/panoramutepl.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/panoramutepl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/preimushZameni.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/preimushZameni.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/proect.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/proect.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/promalp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/promalp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/rabCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/rabCabinet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/remizamenasp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/remizamenasp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/steklopaket.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/steklopaket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/suntinting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntinting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/suntitningokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntitningokon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/systems.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/tonirdoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirdoma.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/tonirokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirokon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/vishka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/vishka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/zenit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zenit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cleaning.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/fitToscreen.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/fitToscreen.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/jquery-1.8.0.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/jquery-1.8.0.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/jquery.pan.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/jquery.pan.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/js-form.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/js-form.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/lightgallery.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/lightgallery.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/lightgalleryInit.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/lightgalleryInit.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/map.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/map.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/menu.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/menu.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/modal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/modal.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/modernizr-custom.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/modernizr-custom.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/slick.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/slick.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/transfers.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/transfers.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/otdelka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/otdelka.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/passport.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/passport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/snabzhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/snabzhenie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/templates/calcuMoika.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuMoika.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/templates/calcuTonir.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuTonir.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/calcuZamena.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuZamena.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/templates/footer-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer-article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/header-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header-article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header.html" afterDir="false" />
@@ -96,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="251">
               <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
             </state>
           </provider>
@@ -105,22 +72,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -141,16 +108,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>font-size: 1.2em;</find>
-      <find>mainBody-text</find>
       <find>Мы пре</find>
       <find>intro</find>
       <find>intro_text</find>
       <find>intro__text</find>
       <find>navigation-toggle</find>
       <find>hamburger</find>
-      <find>.tel</find>
       <find>.main</find>
+      <find>mainBody-text</find>
       <find>.navigation</find>
+      <find>.tel</find>
+      <find>callnow</find>
+      <find>.mainBody-text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,10 +175,10 @@
         <option value="$PROJECT_DIR$/dev/zamena.html" />
         <option value="$PROJECT_DIR$/dev/templates/footer.html" />
         <option value="$PROJECT_DIR$/dev/sass/styles.scss" />
-        <option value="$PROJECT_DIR$/dev/index.html" />
-        <option value="$PROJECT_DIR$/dev/templates/header.html" />
-        <option value="$PROJECT_DIR$/dev/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev/templates/header.html" />
+        <option value="$PROJECT_DIR$/dev/index.html" />
+        <option value="$PROJECT_DIR$/dev/css/style.css" />
       </list>
     </option>
   </component>
@@ -354,12 +323,12 @@
       <workItem from="1484919756153" duration="16567000" />
       <workItem from="1485118397208" duration="17690000" />
       <workItem from="1485205406616" duration="6857000" />
-      <workItem from="1550222331133" duration="4680000" />
+      <workItem from="1550222331133" duration="7294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80121000" />
+    <option name="totallyTimeSpent" value="82735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +343,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61785716" visible="true" weight="0.15699281" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61785716" visible="true" weight="0.15699281" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.38214287" side_tool="true" weight="0.19011976" />
       <window_info id="npm" order="3" sideWeight="0.50757575" side_tool="true" weight="0.24981578" />
@@ -389,7 +358,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32996207" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37931034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37931034" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5067365" side_tool="true" weight="0.2572877" />
       <window_info anchor="bottom" id="File Transfer" order="10" sideWeight="0.49550897" weight="0.19974716" />
       <window_info anchor="right" id="Database" />
@@ -432,11 +401,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/custom-elements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/fitToscreen.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,31 +678,31 @@
     <entry file="file://$PROJECT_DIR$/dev/img/phone.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="58" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
