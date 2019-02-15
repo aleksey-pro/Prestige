@@ -2,71 +2,129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f462033-8914-468a-ac3d-8ef000bf5252" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/components/_send_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/pages/_otdelka.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/sass/templates/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/style.css" afterPath="$PROJECT_DIR$/dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/sass/styles.scss" afterPath="$PROJECT_DIR$/dev/sass/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/footer-article.html" afterPath="$PROJECT_DIR$/dev/templates/footer-article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/templates/footer.html" afterPath="$PROJECT_DIR$/dev/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kakUteplit.html" afterPath="$PROJECT_DIR$/prod/articles/kakUteplit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/kuhnia.html" afterPath="$PROJECT_DIR$/prod/articles/kuhnia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/lounge.html" afterPath="$PROJECT_DIR$/prod/articles/lounge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/panoramutepl.html" afterPath="$PROJECT_DIR$/prod/articles/panoramutepl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/proect.html" afterPath="$PROJECT_DIR$/prod/articles/proect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/promalp.html" afterPath="$PROJECT_DIR$/prod/articles/promalp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/rabCabinet.html" afterPath="$PROJECT_DIR$/prod/articles/rabCabinet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/remizamenasp.html" afterPath="$PROJECT_DIR$/prod/articles/remizamenasp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/steklopaket.html" afterPath="$PROJECT_DIR$/prod/articles/steklopaket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/systems.html" afterPath="$PROJECT_DIR$/prod/articles/systems.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/vishka.html" afterPath="$PROJECT_DIR$/prod/articles/vishka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/zamenafasadost.html" afterPath="$PROJECT_DIR$/prod/articles/zamenafasadost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/articles/zenit.html" afterPath="$PROJECT_DIR$/prod/articles/zenit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/business.html" afterPath="$PROJECT_DIR$/prod/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/cleaning.html" afterPath="$PROJECT_DIR$/prod/cleaning.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css" afterPath="$PROJECT_DIR$/prod/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/css/main.css.map" afterPath="$PROJECT_DIR$/prod/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/index.html" afterPath="$PROJECT_DIR$/prod/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/otdelka.html" afterPath="$PROJECT_DIR$/prod/otdelka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/passport.html" afterPath="$PROJECT_DIR$/prod/passport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuMoika.html" afterPath="$PROJECT_DIR$/prod/templates/calcuMoika.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuTonir.html" afterPath="$PROJECT_DIR$/prod/templates/calcuTonir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/calcuZamena.html" afterPath="$PROJECT_DIR$/prod/templates/calcuZamena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer-article.html" afterPath="$PROJECT_DIR$/prod/templates/footer-article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/footer.html" afterPath="$PROJECT_DIR$/prod/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header-article.html" afterPath="$PROJECT_DIR$/prod/templates/header-article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/templates/header.html" afterPath="$PROJECT_DIR$/prod/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/tonirovka.html" afterPath="$PROJECT_DIR$/prod/tonirovka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zagorod.html" afterPath="$PROJECT_DIR$/prod/zagorod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod/zamena.html" afterPath="$PROJECT_DIR$/prod/zamena.html" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PrestigeV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PrestigeV2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/PrestigeV2_node_modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/akcii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/akcii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/belmatplenka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/belmatplenka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/kakUteplit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kakUteplit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/kuhnia.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kuhnia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/lounge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/moikabannerov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikabannerov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/moikazdanii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikazdanii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/panoramutepl.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/panoramutepl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/preimushZameni.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/preimushZameni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/proect.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/proect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/promalp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/promalp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/rabCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/rabCabinet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/remizamenasp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/remizamenasp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/steklopaket.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/steklopaket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/suntinting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntinting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/suntitningokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntitningokon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/systems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirdoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirdoma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirokon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/vishka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/vishka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/zenit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zenit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cleaning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/fitToscreen.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/fitToscreen.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/jquery-1.8.0.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/jquery-1.8.0.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/jquery.pan.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/jquery.pan.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/js-form.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/js-form.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/lightgallery.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/lightgallery.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/lightgalleryInit.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/lightgalleryInit.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/map.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/map.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/menu.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/menu.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/modal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/modal.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/modernizr-custom.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/modernizr-custom.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/slick.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/slick.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/transfers.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/transfers.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/otdelka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/otdelka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/passport.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/passport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/snabzhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/snabzhenie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/calcuMoika.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuMoika.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/calcuTonir.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuTonir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/calcuZamena.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuZamena.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/footer-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer-article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/header-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header-article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tonirovka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tonirovka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/zagorod.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zagorod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/zamena.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/zamena.html" afterDir="false" />
     </list>
     <ignored path="PrestigeV2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PrestigeV2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/sass/styles.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="404">
+              <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,13 +138,27 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font-size: 1.2em;</find>
+      <find>mainBody-text</find>
+      <find>Мы пре</find>
+      <find>intro</find>
+      <find>intro_text</find>
+      <find>intro__text</find>
+      <find>navigation-toggle</find>
+      <find>hamburger</find>
+      <find>.tel</find>
+      <find>.main</find>
+      <find>.navigation</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/articles/cenapomfasada.html" />
         <option value="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" />
         <option value="$PROJECT_DIR$/dev/articles/cleaningcompany.html" />
         <option value="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" />
@@ -124,7 +196,6 @@
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/dev/scss/_style.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/dev/index.html" />
         <option value="$PROJECT_DIR$/dev/cleaning.html" />
         <option value="$PROJECT_DIR$/dev/otdelka.html" />
         <option value="$PROJECT_DIR$/dev/business.html" />
@@ -134,160 +205,96 @@
         <option value="$PROJECT_DIR$/dev/templates/footer-article.html" />
         <option value="$PROJECT_DIR$/dev/zamena.html" />
         <option value="$PROJECT_DIR$/dev/templates/footer.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dev/css/style.css" />
         <option value="$PROJECT_DIR$/dev/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/dev/index.html" />
+        <option value="$PROJECT_DIR$/dev/templates/header.html" />
+        <option value="$PROJECT_DIR$/dev/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
+  <component name="PhpServers">
+    <servers />
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-        <tasks>
-          <GulpTaskState>
-            <task-name>browserSync</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>images</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>HTML</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>rigger</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>styles</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>sass-styles</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>jshint</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>scripts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="HTML" />
-              <dependency value="fonts" />
-              <dependency value="styles" />
-              <dependency value="jshint" />
-              <dependency value="scripts" />
-              <dependency value="browserSync" />
-              <dependency value="watch" />
-            </dependencies>
-            <task-name>default</task-name>
-          </GulpTaskState>
-        </tasks>
-      </GulpfileState>
-    </gulpfiles>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1386" />
-    <option name="height" value="908" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrestigeV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prestige" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prestige" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prestige" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prestige" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
-    <property name="javascript.nodejs.core.library.configured.version" value="5.0.0" />
-    <property name="js.eslint.eslintPackage" value="C:\Users\Dave_Ghan\AppData\Roaming\npm\node_modules\eslint" />
-    <property name="js.eslint.nodeInterpreter" value="project" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BLOG" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="E:\WWW\PrestigeV2\node_modules\gulp" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="5.0.0" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="E:\WWW\PrestigeV2\node_modules\gulp" />
+    <property name="js.eslint.eslintPackage" value="C:\Users\Dave_Ghan\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="js.eslint.nodeInterpreter" value="project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WWW\PrestigeV2\dev\img" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -302,50 +309,33 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <configuration default="true" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory />
       <pass-parent-env>true</pass-parent-env>
-      <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>DIRECTORY</test-kind>
       <test-directory />
       <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -364,11 +354,12 @@
       <workItem from="1484919756153" duration="16567000" />
       <workItem from="1485118397208" duration="17690000" />
       <workItem from="1485205406616" duration="6857000" />
+      <workItem from="1550222331133" duration="4680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75441000" />
+    <option name="totallyTimeSpent" value="80121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,30 +371,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1386" height="908" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996207" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2572877" sideWeight="0.5067365" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981578" sideWeight="0.50757575" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23388116" sideWeight="0.49326348" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22179975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19011976" sideWeight="0.38214287" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1482036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19011976" sideWeight="0.61785716" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10745891" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19974716" sideWeight="0.49550897" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61785716" visible="true" weight="0.15699281" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Gulp" order="2" sideWeight="0.38214287" side_tool="true" weight="0.19011976" />
+      <window_info id="npm" order="3" sideWeight="0.50757575" side_tool="true" weight="0.24981578" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.10745891" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49326348" weight="0.23388116" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32996207" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37931034" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5067365" side_tool="true" weight="0.2572877" />
+      <window_info anchor="bottom" id="File Transfer" order="10" sideWeight="0.49550897" weight="0.19974716" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.1482036" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -413,9 +410,6 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -424,9 +418,7 @@
           <line>76</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dev/css/_style.scss" />
@@ -436,14 +428,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/custom-elements.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
@@ -478,36 +468,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prod/img/logoFon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/prod/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/templates/header-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/prod/tonirovanie/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prod/index.html">
@@ -575,7 +546,7 @@
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding />
         </state>
       </provider>
@@ -584,22 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="16" column="8751" selection-start-line="16" selection-start-column="8751" selection-end-line="16" selection-end-column="8751" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -614,195 +569,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="414" column="1" selection-start-line="414" selection-start-column="1" selection-end-line="414" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/_vendor.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/_globals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/templates/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/components/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/components/_callback.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/components/_calculator.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_cleaning.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/sass/pages/_cleaning.html" />
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_zamena.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_zagorod.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_tonirovka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_otdelka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_cleaning.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_business.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/pages/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/templates/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/components/_google_map.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/components/_send_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/img/phone.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
