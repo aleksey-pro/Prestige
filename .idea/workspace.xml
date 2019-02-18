@@ -5,28 +5,44 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/passport.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/passport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/snabzhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/snabzhenie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/header-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/header-article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/tonirovka.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/tonirovka.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/akcii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/akcii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/belmatplenka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/belmatplenka.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenamoikafasadov.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cenapomfasada.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompanies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/cleaningcompany.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/deshmoikaokonspb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/effectUteplBalk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/kakUteplit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kakUteplit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/kuhnia.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/kuhnia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/lounge.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/lounge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/moikabannerov.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikabannerov.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/moikazdanii.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/moikazdanii.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/panoramutepl.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/panoramutepl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/plenkifordoma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonalpinistami.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/pomokonkvart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/preimushZameni.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/preimushZameni.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/proect.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/proect.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/promalp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/promalp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/rabCabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/rabCabinet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/remizamenasp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/remizamenasp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/steklopaket.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/steklopaket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/stoimpomivkiokon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/suntinting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntinting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/suntitningokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/suntitningokon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/systems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirVPomesh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirdoma.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirdoma.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/tonirokon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirokon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/tonirplenkoi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/vishka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/vishka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zamenafasadost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/articles/zenit.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/articles/zenit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cleaning.html" afterDir="false" />
@@ -36,8 +52,9 @@
       <change beforePath="$PROJECT_DIR$/docs/otdelka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/otdelka.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/passport.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/passport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/snabzhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/snabzhenie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/templates/calcuZamena.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuZamena.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/calcuMoika.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuMoika.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/calcuTonir.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/calcuTonir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates/footer-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/footer-article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/header-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header-article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/tonirovka.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tonirovka.html" afterDir="false" />
@@ -63,8 +80,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+            <state relative-caret-position="793">
+              <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="90" selection-start-line="90" selection-end-line="94" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,26 +105,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="230">
+              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
+        <entry file="file://$PROJECT_DIR$/dev/templates/header-article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="266">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/dev/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="1208" column="9" selection-start-line="1208" selection-start-column="9" selection-end-line="1208" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/snabzhenie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="47" column="105" selection-start-line="47" selection-start-column="105" selection-end-line="47" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/passport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/passport-sogl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/conds.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="51" column="131" selection-start-line="51" selection-start-column="131" selection-end-line="51" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -119,7 +197,15 @@
       <find>.navigation</find>
       <find>.tel</find>
       <find>callnow</find>
+      <find>.passport__content p</find>
+      <find>.heading-text</find>
+      <find>margin: 5% auto;</find>
+      <find>.passport__content</find>
+      <find>max-width: 1024px;</find>
       <find>.mainBody-text</find>
+      <find>.callnow</find>
+      <find>passport__content</find>
+      <find>@media only screen and (max-width: 992px)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,11 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/articles/cleaningcompanies.html" />
-        <option value="$PROJECT_DIR$/dev/articles/cleaningcompany.html" />
-        <option value="$PROJECT_DIR$/dev/articles/deshmoikaokonspb.html" />
-        <option value="$PROJECT_DIR$/dev/articles/effectUteplBalk.html" />
-        <option value="$PROJECT_DIR$/dev/articles/kakUteplit.html" />
         <option value="$PROJECT_DIR$/dev/articles/kuhnia.html" />
         <option value="$PROJECT_DIR$/dev/articles/lounge.html" />
         <option value="$PROJECT_DIR$/dev/articles/moikabannerov.html" />
@@ -168,17 +249,22 @@
         <option value="$PROJECT_DIR$/dev/cleaning.html" />
         <option value="$PROJECT_DIR$/dev/otdelka.html" />
         <option value="$PROJECT_DIR$/dev/business.html" />
-        <option value="$PROJECT_DIR$/dev/passport.html" />
         <option value="$PROJECT_DIR$/dev/zagorod.html" />
-        <option value="$PROJECT_DIR$/dev/tonirovka.html" />
         <option value="$PROJECT_DIR$/dev/templates/footer-article.html" />
         <option value="$PROJECT_DIR$/dev/zamena.html" />
         <option value="$PROJECT_DIR$/dev/templates/footer.html" />
         <option value="$PROJECT_DIR$/dev/sass/styles.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dev/templates/header.html" />
+        <option value="$PROJECT_DIR$/dev/snabzhenie.html" />
+        <option value="$PROJECT_DIR$/dev/tonirovka.html" />
+        <option value="$PROJECT_DIR$/dev/conds.html" />
+        <option value="$PROJECT_DIR$/dev/passport.html" />
+        <option value="$PROJECT_DIR$/dev/passport-sogl.html" />
         <option value="$PROJECT_DIR$/dev/index.html" />
+        <option value="$PROJECT_DIR$/dev/contacts.html" />
         <option value="$PROJECT_DIR$/dev/css/style.css" />
+        <option value="$PROJECT_DIR$/dev/templates/header.html" />
+        <option value="$PROJECT_DIR$/dev/templates/header-article.html" />
       </list>
     </option>
   </component>
@@ -216,12 +302,6 @@
               <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
               <item name="Prestige" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prestige" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prestige" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,18 +318,20 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="5.0.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="E:\WWW\PrestigeV2\node_modules\gulp" />
     <property name="js.eslint.eslintPackage" value="C:\Users\Dave_Ghan\AppData\Roaming\npm\node_modules\eslint" />
     <property name="js.eslint.nodeInterpreter" value="project" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev" />
       <recent name="E:\WWW\PrestigeV2\dev\img" />
     </key>
   </component>
@@ -323,12 +405,13 @@
       <workItem from="1484919756153" duration="16567000" />
       <workItem from="1485118397208" duration="17690000" />
       <workItem from="1485205406616" duration="6857000" />
-      <workItem from="1550222331133" duration="7294000" />
+      <workItem from="1550222331133" duration="7748000" />
+      <workItem from="1550501809923" duration="7081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82735000" />
+    <option name="totallyTimeSpent" value="90270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,13 +426,11 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61785716" visible="true" weight="0.15699281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61785716" visible="true" weight="0.26699835" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.38214287" side_tool="true" weight="0.19011976" />
       <window_info id="npm" order="3" sideWeight="0.50757575" side_tool="true" weight="0.24981578" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.10745891" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49326348" weight="0.23388116" />
@@ -358,14 +439,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32996207" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37931034" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.569488" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5067365" side_tool="true" weight="0.2572877" />
       <window_info anchor="bottom" id="File Transfer" order="10" sideWeight="0.49550897" weight="0.19974716" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.1482036" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,16 +473,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/css/_style.scss" />
-    <entry file="file://$PROJECT_DIR$/dev/sass/_style.scss" />
-    <entry file="file://$PROJECT_DIR$/dev/css/styles.css" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/custom-elements.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -425,43 +498,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/passport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prod/img/logoFon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/prod/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/header-article.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod/tonirovanie/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="8" column="2242" selection-start-line="8" selection-start-column="2228" selection-end-line="8" selection-end-column="2242" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="6" column="29143" selection-start-line="6" selection-start-column="29130" selection-end-line="6" selection-end-column="29143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/prod/templates/header.html" />
+    <entry file="file://$PROJECT_DIR$/prod/tonirovanie/index.html" />
+    <entry file="file://$PROJECT_DIR$/prod/index.html" />
+    <entry file="file://$PROJECT_DIR$/prod/css/main.css" />
     <entry file="file://$PROJECT_DIR$/dev/zagorod.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -480,14 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/tonirovka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -521,16 +556,6 @@
         <state relative-caret-position="57">
           <caret line="16" column="8751" selection-start-line="16" selection-start-column="8751" selection-end-line="16" selection-end-column="8751" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,6 +703,16 @@
     <entry file="file://$PROJECT_DIR$/dev/img/phone.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="e#7655#7661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -685,24 +720,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
+    <entry file="file://$PROJECT_DIR$/dev/tonirovka.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="350">
+          <caret line="82" column="243" selection-start-line="82" selection-start-column="243" selection-end-line="82" selection-end-column="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/conds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="51" column="131" selection-start-line="51" selection-start-column="131" selection-end-line="51" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/snabzhenie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="105" selection-start-line="47" selection-start-column="105" selection-end-line="47" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/passport-sogl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+        <state relative-caret-position="793">
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/passport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="90" selection-start-line="90" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#li#1;n#ul#0;n#form#0;n#div#4;n#div#3;n#section#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="270">
+          <caret line="1208" column="9" selection-start-line="1208" selection-start-column="9" selection-end-line="1208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/header-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>

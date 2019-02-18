@@ -3188,6 +3188,7 @@ nav {
 }
 
 .callnow {
+    padding-top: 10px;
     font-size: 20px;
     text-align: center;
     color: #36b6dd;
@@ -3271,6 +3272,7 @@ nav {
 h1.mainBody-text {
     font-size: 1.8rem;
     color: #ffffff;
+    text-align: center;
 }
 
 
@@ -3279,6 +3281,21 @@ h1.mainBody-text {
     text-transform: none;
     color: #3d3d3d;
     margin: 20px 5%;
+    text-align: left;
+}
+
+.mainBody-text p {
+    text-align: left;
+}
+
+@media screen and (min-width: 610px) {
+
+    .mainBody-text {
+        text-align: center;
+    }
+}
+
+.mainBody-text a {
     text-align: center;
 }
 
@@ -3298,7 +3315,7 @@ h1.mainBody-text {
 /*--------------------------------  P A G E S   C O N T E N T --------------------------*/
 
 .content-wrapper {
-    padding-top: 110px;
+    padding-top: 50px;
     background: #fff url('../img/cleaningBG.jpg') no-repeat;
     background-size: cover;
 }
@@ -3316,7 +3333,8 @@ h1.mainBody-text {
 .zagorod__bottom,
 .tonirovka__content,
 .akcii__content {
-    margin: 10px 20%;
+    margin: 10px auto;
+    max-width: 860px;
 }
 
 .business__text, .cleaning__text, .tonirovka__text {
@@ -3338,7 +3356,6 @@ h1.mainBody-text {
 
 .heading-text {
     overflow: hidden;
-    width: 40%;
     text-transform: uppercase;
 }
 
@@ -3356,15 +3373,24 @@ h1.mainBody-text {
 }
 
 .passport__content {
-    height: 50em;
+    padding-bottom: 30px;
+}
+
+.passport__content .address {
+    margin-left: 0;
+}
+
+.passport__content .address p {
+    margin-left: 0;
 }
 
 .passport__content h2 {
     color: #6f6f6f;
+    margin-bottom: 2rem;
 }
 
 .passport__content p {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .cleaning__uslugi, .uslugi__list, .zagorod__content ul, .article__text ul, .zamena__lists ul, .passport__content ul {
@@ -4023,13 +4049,13 @@ label {
 
 @media only screen and (max-width: 992px) {
 
-    .heading-text, .business__uslugi ul, .zamena__content, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom p, .zamena__bottom p .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom, .tonirovka__intro, .tonirovka__vibor__content, .akcii-content {
-        padding: 10px 10%;
-    }
+    /*.heading-text, .business__uslugi ul, .zamena__content, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom p, .zamena__bottom p .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom, .tonirovka__intro, .tonirovka__vibor__content, .akcii-content {*/
+        /*padding: 10px 10%;*/
+    /*}*/
 
-    .business__text, .cleaning__text, .tonirovka__text {
-        padding: 0 10%;
-    }
+    /*.business__text, .cleaning__text, .tonirovka__text {*/
+        /*padding: 0 10%;*/
+    /*}*/
 
     .contacts {
         width: 50%;
@@ -4057,7 +4083,7 @@ label {
     }
 
     .heading-text, .business__uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom p, .zamena__bottom p, .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom {
-        padding: 0 10% 0 5%;
+        padding: 0 10% 0 0;
     }
 
     .tonirovka__intro, .tonirovka__vibor__content {
@@ -4379,10 +4405,10 @@ label {
 
 /* @media only screen and (max-width: 375px) */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 840px) {
 
     .heading-text, .business__uslugi ul, .zagorod__intro, .otdelka__content, .zagorod__otdel p, .business__bottom p, .zagorod__bottom p, .article__content, .cleaning__introText, .cleaning__bottom, .tonirovka__intro {
-        padding: 0 5%;
+        padding: 0 5% 0 0;
     }
 
     .zamena__lists {
@@ -4403,7 +4429,7 @@ label {
     .zagorod__bottom,
     .tonirovka__content,
     .akcii__content {
-        margin: 5% 10px;
+        margin: 5% 20px;
     }
 
     .zamena__content, .akcii-content {
